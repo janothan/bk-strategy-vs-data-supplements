@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+      <alignapilocalns:matcherThreshold xmlns:alignapilocalns="http://a.com/">0.5</alignapilocalns:matcherThreshold>
+      <alignapilocalns:matcherStrategy xmlns:alignapilocalns="http://a.com/">SYNONYMY</alignapilocalns:matcherStrategy>
+      <alignapilocalns:backgroundDataset xmlns:alignapilocalns="http://a.com/">wiktionary_emb</alignapilocalns:backgroundDataset>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Proceedings"/>
+      <entity2 rdf:resource="http://iasted#Money"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7341489535289178</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Session_Chair"/>
+      <entity2 rdf:resource="http://iasted#Session_chair"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Document"/>
+      <entity2 rdf:resource="http://iasted#Document"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Review"/>
+      <entity2 rdf:resource="http://iasted#Review"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#hasReview"/>
+      <entity2 rdf:resource="http://iasted#write"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5642879706824157</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performTokenBasedSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Conference_Trip"/>
+      <entity2 rdf:resource="http://iasted#Nonmember_registration_fee"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8182022844362306</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#locationOf"/>
+      <entity2 rdf:resource="http://iasted#is_situated_in"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5479482002800844</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performTokenBasedSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Conference_Banquet"/>
+      <entity2 rdf:resource="http://iasted#Submissions_deadline"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7830935376264677</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#heldIn"/>
+      <entity2 rdf:resource="http://iasted#is_held_in"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">mapToMany()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#references"/>
+      <entity2 rdf:resource="http://iasted#is_sent_by"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7634025658400568</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performTokenBasedSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#hasReviewer"/>
+      <entity2 rdf:resource="http://iasted#is_sent_after"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6688027242435439</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performTokenBasedSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#University"/>
+      <entity2 rdf:resource="http://iasted#Credit_card"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5244216022447138</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#organises"/>
+      <entity2 rdf:resource="http://iasted#is_held_after"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.901310277820346</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performTokenBasedSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Organisation"/>
+      <entity2 rdf:resource="http://iasted#Bank_transfer"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8112707407274361</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Web_Site"/>
+      <entity2 rdf:resource="http://iasted#Listener"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5609368338003308</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Conference_Participant"/>
+      <entity2 rdf:resource="http://iasted#Place"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6891728881506755</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#organisedBy"/>
+      <entity2 rdf:resource="http://iasted#is_given_to"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6803905276232937</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#listsEvent"/>
+      <entity2 rdf:resource="http://iasted#is_paid_for"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.710053420647963</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Poster_Session"/>
+      <entity2 rdf:resource="http://iasted#Simulating"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8614824985476539</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Location"/>
+      <entity2 rdf:resource="http://iasted#Tip"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5847742465591929</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Flyer"/>
+      <entity2 rdf:resource="http://iasted#Introduction"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5107119816415829</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Assigned_Paper"/>
+      <entity2 rdf:resource="http://iasted#Conference_airport"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8197306522505694</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#publisherOf"/>
+      <entity2 rdf:resource="http://iasted#is_occupied_by"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5371661354588344</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performTokenBasedSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Academic_Institution"/>
+      <entity2 rdf:resource="http://iasted#Overhead_projector"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7418398112329524</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Camera_Ready_Paper"/>
+      <entity2 rdf:resource="http://iasted#Conference_days"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.772393581504494</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#writtenBy"/>
+      <entity2 rdf:resource="http://iasted#is_signed_by"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5345838845078251</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performTokenBasedSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Submitted_Paper"/>
+      <entity2 rdf:resource="http://iasted#Nonauthor_registration_fee"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8416930449485521</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Workshop"/>
+      <entity2 rdf:resource="http://iasted#Building"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5761923106500955</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Session"/>
+      <entity2 rdf:resource="http://iasted#Session"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Tutorial"/>
+      <entity2 rdf:resource="http://iasted#Tutorial"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Person"/>
+      <entity2 rdf:resource="http://iasted#Person"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Contributed_Talk"/>
+      <entity2 rdf:resource="http://iasted#Plenary_lecture"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6343250734622853</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performTokenBasedSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Paper"/>
+      <entity2 rdf:resource="http://iasted#Currency"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6775216881684362</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Conference"/>
+      <entity2 rdf:resource="http://iasted#Speaker"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8298465886392864</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Conference_Proceedings"/>
+      <entity2 rdf:resource="http://iasted#LCD_projector"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6576879361683649</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#referencedIn"/>
+      <entity2 rdf:resource="http://iasted#is_sent_before"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7750458662982744</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performTokenBasedSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Social_Event"/>
+      <entity2 rdf:resource="http://iasted#Value_added_tax"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5043260902866569</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

@@ -1,0 +1,5 @@
+Type,Macro Precision (P),Macro Recall (R),Residual Macro Recall (R+),Macro F1,Micro Precision (P),Micro Recall (R),Residual Micro Recall (R+),Micro F1,"# of TP","# of Residual TP","# of FP","# of FN","# of Correspondences",Total Runtime,Total Runtime(HH:MM:SS),http://a.com/matcherThreshold,http://a.com/matcherStrategy,http://a.com/backgroundDataset
+ALL,0.8941176470588236,0.33953834698436336,0.1015744032503809,0.49217485159201285,0.8941176470588236,0.33953834698436336,0.1015744032503809,0.49217485159201285,912,200,108,1774,1130,1470050344578,00:24:30,0.5,SYNONYMY,WikidataKnowledgeSource
+CLASSES,0.8941176470588236,0.33953834698436336,0.1015744032503809,0.49217485159201285,0.8941176470588236,0.33953834698436336,0.1015744032503809,0.49217485159201285,912,200,108,1774,1130,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+PROPERTIES,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+INSTANCES,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource

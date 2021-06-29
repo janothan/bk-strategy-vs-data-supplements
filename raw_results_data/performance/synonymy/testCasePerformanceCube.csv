@@ -1,0 +1,645 @@
+Track,Test Case,Matcher,Type,Precision (P),Recall (R),Residual Recall (R+),F1,"# of TP","# of FP","# of FN","# of Correspondences",Time,Time (HH:MM:SS),http://a.com/matcherThreshold,http://a.com/matcherStrategy,http://a.com/backgroundDataset
+conference,ekaw-iasted,wordnet_syn,ALL,0.75,0.6,0.0,0.6666666666666665,6,2,4,8,77123450,00:00:00,0.5,SYNONYMY,WordNet
+conference,ekaw-iasted,wordnet_syn,CLASSES,0.8571428571428571,0.6,0.0,0.7058823529411764,6,1,4,7,-,-,0.5,SYNONYMY,WordNet
+conference,ekaw-iasted,wordnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,0,1,-,-,0.5,SYNONYMY,WordNet
+conference,ekaw-iasted,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,confof-iasted,wordnet_syn,ALL,0.8333333333333334,0.5555555555555556,0.2,0.6666666666666667,5,1,4,6,69571759,00:00:00,0.5,SYNONYMY,WordNet
+conference,confof-iasted,wordnet_syn,CLASSES,0.8333333333333334,0.5555555555555556,0.2,0.6666666666666667,5,1,4,6,-,-,0.5,SYNONYMY,WordNet
+conference,confof-iasted,wordnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,confof-iasted,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,edas-iasted,wordnet_syn,ALL,0.8,0.42105263157894735,0.08333333333333333,0.5517241379310345,8,2,11,10,95542548,00:00:00,0.5,SYNONYMY,WordNet
+conference,edas-iasted,wordnet_syn,CLASSES,0.8,0.42105263157894735,0.08333333333333333,0.5517241379310345,8,2,11,10,-,-,0.5,SYNONYMY,WordNet
+conference,edas-iasted,wordnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,edas-iasted,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+anatomy_track,mouse-human-suite,wordnet_syn,ALL,0.9635555555555556,0.7150395778364116,0.07900677200902935,0.8209011737978038,1084,41,432,1125,8325931628,00:00:08,0.5,SYNONYMY,WordNet
+anatomy_track,mouse-human-suite,wordnet_syn,CLASSES,0.9652715939447908,0.7150395778364116,0.07900677200902935,0.821523304281925,1084,39,432,1123,-,-,0.5,SYNONYMY,WordNet
+anatomy_track,mouse-human-suite,wordnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,0.5,SYNONYMY,WordNet
+anatomy_track,mouse-human-suite,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-sigkdd,wordnet_syn,ALL,0.8181818181818182,0.75,0.25,0.7826086956521738,9,2,3,11,90777092,00:00:00,0.5,SYNONYMY,WordNet
+conference,cmt-sigkdd,wordnet_syn,CLASSES,1.0,0.8,0.0,0.888888888888889,8,0,2,8,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-sigkdd,wordnet_syn,PROPERTIES,0.3333333333333333,0.5,0.5,0.4,1,2,1,3,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-sigkdd,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+largebio,small-fma-nci,wordnet_syn,ALL,0.9632516703786191,0.32204020848845866,0.07770441848654139,0.4827008928571429,865,33,1821,991,12269657419,00:00:12,0.5,SYNONYMY,WordNet
+largebio,small-fma-nci,wordnet_syn,CLASSES,0.9632516703786191,0.32204020848845866,0.07770441848654139,0.4827008928571429,865,33,1821,991,-,-,0.5,SYNONYMY,WordNet
+largebio,small-fma-nci,wordnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+largebio,small-fma-nci,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,confof-sigkdd,wordnet_syn,ALL,1.0,0.7142857142857143,0.3333333333333333,0.8333333333333333,5,0,2,5,37143459,00:00:00,0.5,SYNONYMY,WordNet
+conference,confof-sigkdd,wordnet_syn,CLASSES,1.0,0.6666666666666666,0.0,0.8,4,0,2,4,-,-,0.5,SYNONYMY,WordNet
+conference,confof-sigkdd,wordnet_syn,PROPERTIES,1.0,1.0,1.0,1.0,1,0,0,1,-,-,0.5,SYNONYMY,WordNet
+conference,confof-sigkdd,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-conference,wordnet_syn,ALL,0.6666666666666666,0.4,0.1,0.5,6,3,9,9,640363378,00:00:00,0.5,SYNONYMY,WordNet
+conference,cmt-conference,wordnet_syn,CLASSES,0.7142857142857143,0.4166666666666667,0.125,0.5263157894736842,5,2,7,7,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-conference,wordnet_syn,PROPERTIES,0.5,0.3333333333333333,0.0,0.4,1,1,2,2,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-conference,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-confof,wordnet_syn,ALL,0.75,0.375,0.0,0.5,6,2,10,8,144763305,00:00:00,0.5,SYNONYMY,WordNet
+conference,cmt-confof,wordnet_syn,CLASSES,0.8,0.4,0.0,0.5333333333333333,4,1,6,5,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-confof,wordnet_syn,PROPERTIES,0.6666666666666666,0.3333333333333333,0.0,0.4444444444444444,2,1,4,3,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-confof,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,conference-sigkdd,wordnet_syn,ALL,0.8,0.5333333333333333,0.0,0.64,8,2,7,10,56549622,00:00:00,0.5,SYNONYMY,WordNet
+conference,conference-sigkdd,wordnet_syn,CLASSES,0.8888888888888888,0.6666666666666666,0.0,0.761904761904762,8,1,4,9,-,-,0.5,SYNONYMY,WordNet
+conference,conference-sigkdd,wordnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,3,1,-,-,0.5,SYNONYMY,WordNet
+conference,conference-sigkdd,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,conference-confof,wordnet_syn,ALL,0.8333333333333334,0.6666666666666666,0.16666666666666666,0.7407407407407408,10,2,5,12,94477846,00:00:00,0.5,SYNONYMY,WordNet
+conference,conference-confof,wordnet_syn,CLASSES,0.875,0.6363636363636364,0.0,0.7368421052631579,7,1,4,8,-,-,0.5,SYNONYMY,WordNet
+conference,conference-confof,wordnet_syn,PROPERTIES,0.75,0.75,0.5,0.75,3,1,1,4,-,-,0.5,SYNONYMY,WordNet
+conference,conference-confof,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,confof-ekaw,wordnet_syn,ALL,0.8461538461538461,0.55,0.1,0.6666666666666667,11,2,9,13,64416455,00:00:00,0.5,SYNONYMY,WordNet
+conference,confof-ekaw,wordnet_syn,CLASSES,0.9166666666666666,0.55,0.1,0.6874999999999999,11,1,9,12,-,-,0.5,SYNONYMY,WordNet
+conference,confof-ekaw,wordnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,0,1,-,-,0.5,SYNONYMY,WordNet
+conference,confof-ekaw,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,confof-edas,wordnet_syn,ALL,0.631578947368421,0.631578947368421,0.125,0.631578947368421,12,7,7,19,84507315,00:00:00,0.5,SYNONYMY,WordNet
+conference,confof-edas,wordnet_syn,CLASSES,0.9,0.6428571428571429,0.0,0.75,9,1,5,10,-,-,0.5,SYNONYMY,WordNet
+conference,confof-edas,wordnet_syn,PROPERTIES,0.3333333333333333,0.6,0.3333333333333333,0.42857142857142855,3,6,2,9,-,-,0.5,SYNONYMY,WordNet
+conference,confof-edas,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-ekaw,wordnet_syn,ALL,0.7142857142857143,0.45454545454545453,0.0,0.5555555555555556,5,2,6,7,106681444,00:00:00,0.5,SYNONYMY,WordNet
+conference,cmt-ekaw,wordnet_syn,CLASSES,1.0,0.625,0.0,0.7692307692307693,5,0,3,5,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-ekaw,wordnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,3,2,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-ekaw,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,edas-ekaw,wordnet_syn,ALL,0.625,0.43478260869565216,0.07692307692307693,0.5128205128205128,10,6,13,16,75425651,00:00:00,0.5,SYNONYMY,WordNet
+conference,edas-ekaw,wordnet_syn,CLASSES,0.7692307692307693,0.5263157894736842,0.1,0.625,10,3,9,13,-,-,0.5,SYNONYMY,WordNet
+conference,edas-ekaw,wordnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,3,4,3,-,-,0.5,SYNONYMY,WordNet
+conference,edas-ekaw,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,iasted-sigkdd,wordnet_syn,ALL,0.6470588235294118,0.7333333333333333,0.0,0.6875,11,6,4,17,51395719,00:00:00,0.5,SYNONYMY,WordNet
+conference,iasted-sigkdd,wordnet_syn,CLASSES,0.9166666666666666,0.7333333333333333,0.0,0.8148148148148148,11,1,4,12,-,-,0.5,SYNONYMY,WordNet
+conference,iasted-sigkdd,wordnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,5,0,5,-,-,0.5,SYNONYMY,WordNet
+conference,iasted-sigkdd,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-edas,wordnet_syn,ALL,0.6153846153846154,0.6153846153846154,0.0,0.6153846153846154,8,5,5,13,192818584,00:00:00,0.5,SYNONYMY,WordNet
+conference,cmt-edas,wordnet_syn,CLASSES,0.8888888888888888,1.0,0.0,0.9411764705882353,8,1,0,9,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-edas,wordnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,4,5,4,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-edas,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,conference-iasted,wordnet_syn,ALL,0.5714285714285714,0.2857142857142857,0.0,0.38095238095238093,4,3,10,7,103314590,00:00:00,0.5,SYNONYMY,WordNet
+conference,conference-iasted,wordnet_syn,CLASSES,0.6666666666666666,0.3076923076923077,0.0,0.42105263157894735,4,2,9,6,-,-,0.5,SYNONYMY,WordNet
+conference,conference-iasted,wordnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,1,1,-,-,0.5,SYNONYMY,WordNet
+conference,conference-iasted,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,conference-ekaw,wordnet_syn,ALL,0.6666666666666666,0.4,0.0625,0.5,10,5,15,15,80740073,00:00:00,0.5,SYNONYMY,WordNet
+conference,conference-ekaw,wordnet_syn,CLASSES,0.6923076923076923,0.391304347826087,0.06666666666666667,0.5,9,4,14,13,-,-,0.5,SYNONYMY,WordNet
+conference,conference-ekaw,wordnet_syn,PROPERTIES,0.5,0.5,0.0,0.5,1,1,1,2,-,-,0.5,SYNONYMY,WordNet
+conference,conference-ekaw,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,conference-edas,wordnet_syn,ALL,0.6,0.5294117647058824,0.0,0.5625,9,6,8,15,142178099,00:00:00,0.5,SYNONYMY,WordNet
+conference,conference-edas,wordnet_syn,CLASSES,0.875,0.5,0.0,0.6363636363636364,7,1,7,8,-,-,0.5,SYNONYMY,WordNet
+conference,conference-edas,wordnet_syn,PROPERTIES,0.2857142857142857,0.6666666666666666,0.0,0.4,2,5,1,7,-,-,0.5,SYNONYMY,WordNet
+conference,conference-edas,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-iasted,wordnet_syn,ALL,0.8,1.0,0.0,0.888888888888889,4,1,0,5,161440098,00:00:00,0.5,SYNONYMY,WordNet
+conference,cmt-iasted,wordnet_syn,CLASSES,0.8,1.0,0.0,0.888888888888889,4,1,0,5,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-iasted,wordnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,cmt-iasted,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,ekaw-sigkdd,wordnet_syn,ALL,0.875,0.6363636363636364,0.0,0.7368421052631579,7,1,4,8,35158342,00:00:00,0.5,SYNONYMY,WordNet
+conference,ekaw-sigkdd,wordnet_syn,CLASSES,0.875,0.6363636363636364,0.0,0.7368421052631579,7,1,4,8,-,-,0.5,SYNONYMY,WordNet
+conference,ekaw-sigkdd,wordnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,ekaw-sigkdd,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,edas-sigkdd,wordnet_syn,ALL,0.7777777777777778,0.4666666666666667,0.0,0.5833333333333334,7,2,8,9,67271424,00:00:00,0.5,SYNONYMY,WordNet
+conference,edas-sigkdd,wordnet_syn,CLASSES,1.0,0.6363636363636364,0.0,0.7777777777777778,7,0,4,7,-,-,0.5,SYNONYMY,WordNet
+conference,edas-sigkdd,wordnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,4,2,-,-,0.5,SYNONYMY,WordNet
+conference,edas-sigkdd,wordnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WordNet
+conference,confof-iasted,babelnet_syn,ALL,0.625,0.5555555555555556,0.2,0.5882352941176471,5,3,4,8,703331921,00:00:00,0.5,SYNONYMY,BabelNet Symbolic
+conference,confof-iasted,babelnet_syn,CLASSES,0.7142857142857143,0.5555555555555556,0.2,0.6250000000000001,5,2,4,7,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,confof-iasted,babelnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,0,1,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,confof-iasted,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,ekaw-iasted,babelnet_syn,ALL,0.6363636363636364,0.7,0.25,0.6666666666666666,7,4,3,11,1440956157,00:00:01,0.5,SYNONYMY,BabelNet Symbolic
+conference,ekaw-iasted,babelnet_syn,CLASSES,0.7777777777777778,0.7,0.25,0.7368421052631577,7,2,3,9,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,ekaw-iasted,babelnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,ekaw-iasted,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,edas-iasted,babelnet_syn,ALL,0.75,0.47368421052631576,0.16666666666666666,0.5806451612903226,9,3,10,12,1922697389,00:00:01,0.5,SYNONYMY,BabelNet Symbolic
+conference,edas-iasted,babelnet_syn,CLASSES,0.8181818181818182,0.47368421052631576,0.16666666666666666,0.6,9,2,10,11,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,edas-iasted,babelnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,0,1,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,edas-iasted,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-sigkdd,babelnet_syn,ALL,0.8181818181818182,0.75,0.25,0.7826086956521738,9,2,3,11,2738503694,00:00:02,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-sigkdd,babelnet_syn,CLASSES,1.0,0.8,0.0,0.888888888888889,8,0,2,8,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-sigkdd,babelnet_syn,PROPERTIES,0.3333333333333333,0.5,0.5,0.4,1,2,1,3,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-sigkdd,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+anatomy_track,mouse-human-suite,babelnet_syn,ALL,0.946843853820598,0.7519788918205804,0.2054176072234763,0.838235294117647,1140,64,376,1204,813550060154,00:13:33,0.5,SYNONYMY,BabelNet Symbolic
+anatomy_track,mouse-human-suite,babelnet_syn,CLASSES,0.9484193011647255,0.7519788918205804,0.2054176072234763,0.8388520971302428,1140,62,376,1202,-,-,0.5,SYNONYMY,BabelNet Symbolic
+anatomy_track,mouse-human-suite,babelnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,0.5,SYNONYMY,BabelNet Symbolic
+anatomy_track,mouse-human-suite,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+largebio,small-fma-nci,babelnet_syn,ALL,0.9093406593406593,0.36969471332836934,0.14271203656678516,0.5256749602964531,993,99,1693,1196,1294600041528,00:21:34,0.5,SYNONYMY,BabelNet Symbolic
+largebio,small-fma-nci,babelnet_syn,CLASSES,0.9093406593406593,0.36969471332836934,0.14271203656678516,0.5256749602964531,993,99,1693,1196,-,-,0.5,SYNONYMY,BabelNet Symbolic
+largebio,small-fma-nci,babelnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+largebio,small-fma-nci,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,confof-sigkdd,babelnet_syn,ALL,0.8,0.5714285714285714,0.0,0.6666666666666666,4,1,3,5,244994299,00:00:00,0.5,SYNONYMY,BabelNet Symbolic
+conference,confof-sigkdd,babelnet_syn,CLASSES,0.8,0.6666666666666666,0.0,0.7272727272727272,4,1,2,5,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,confof-sigkdd,babelnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,1,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,confof-sigkdd,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-conference,babelnet_syn,ALL,0.5,0.4,0.1,0.4444444444444445,6,6,9,12,13074787330,00:00:13,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-conference,babelnet_syn,CLASSES,0.625,0.4166666666666667,0.125,0.5,5,3,7,8,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-conference,babelnet_syn,PROPERTIES,0.25,0.3333333333333333,0.0,0.28571428571428575,1,3,2,4,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-conference,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-confof,babelnet_syn,ALL,0.75,0.375,0.0,0.5,6,2,10,8,4736296609,00:00:04,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-confof,babelnet_syn,CLASSES,0.8,0.4,0.0,0.5333333333333333,4,1,6,5,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-confof,babelnet_syn,PROPERTIES,0.6666666666666666,0.3333333333333333,0.0,0.4444444444444444,2,1,4,3,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-confof,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-confof,babelnet_syn,ALL,0.75,0.6,0.0,0.6666666666666665,9,3,6,12,327607241,00:00:00,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-confof,babelnet_syn,CLASSES,0.7777777777777778,0.6363636363636364,0.0,0.7000000000000001,7,2,4,9,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-confof,babelnet_syn,PROPERTIES,0.6666666666666666,0.5,0.0,0.5714285714285715,2,1,2,3,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-confof,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-sigkdd,babelnet_syn,ALL,0.7272727272727273,0.5333333333333333,0.0,0.6153846153846153,8,3,7,11,932024313,00:00:00,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-sigkdd,babelnet_syn,CLASSES,0.8,0.6666666666666666,0.0,0.7272727272727272,8,2,4,10,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-sigkdd,babelnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,3,1,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-sigkdd,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,confof-ekaw,babelnet_syn,ALL,0.8461538461538461,0.55,0.1,0.6666666666666667,11,2,9,13,220967397,00:00:00,0.5,SYNONYMY,BabelNet Symbolic
+conference,confof-ekaw,babelnet_syn,CLASSES,0.9166666666666666,0.55,0.1,0.6874999999999999,11,1,9,12,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,confof-ekaw,babelnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,0,1,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,confof-ekaw,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,confof-edas,babelnet_syn,ALL,0.65,0.6842105263157895,0.25,0.6666666666666667,13,7,6,20,424083859,00:00:00,0.5,SYNONYMY,BabelNet Symbolic
+conference,confof-edas,babelnet_syn,CLASSES,0.9090909090909091,0.7142857142857143,0.2,0.8,10,1,4,11,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,confof-edas,babelnet_syn,PROPERTIES,0.3333333333333333,0.6,0.3333333333333333,0.42857142857142855,3,6,2,9,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,confof-edas,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-ekaw,babelnet_syn,ALL,0.625,0.45454545454545453,0.0,0.5263157894736842,5,3,6,8,3880099794,00:00:03,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-ekaw,babelnet_syn,CLASSES,1.0,0.625,0.0,0.7692307692307693,5,0,3,5,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-ekaw,babelnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,3,3,3,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-ekaw,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,edas-ekaw,babelnet_syn,ALL,0.6111111111111112,0.4782608695652174,0.15384615384615385,0.5365853658536586,11,7,12,18,1027366159,00:00:01,0.5,SYNONYMY,BabelNet Symbolic
+conference,edas-ekaw,babelnet_syn,CLASSES,0.7857142857142857,0.5789473684210527,0.2,0.6666666666666667,11,3,8,14,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,edas-ekaw,babelnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,4,4,4,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,edas-ekaw,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,iasted-sigkdd,babelnet_syn,ALL,0.6111111111111112,0.7333333333333333,0.0,0.6666666666666666,11,7,4,18,546749179,00:00:00,0.5,SYNONYMY,BabelNet Symbolic
+conference,iasted-sigkdd,babelnet_syn,CLASSES,0.9166666666666666,0.7333333333333333,0.0,0.8148148148148148,11,1,4,12,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,iasted-sigkdd,babelnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,6,0,6,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,iasted-sigkdd,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-edas,babelnet_syn,ALL,0.6153846153846154,0.6153846153846154,0.0,0.6153846153846154,8,5,5,13,9499003519,00:00:09,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-edas,babelnet_syn,CLASSES,0.8888888888888888,1.0,0.0,0.9411764705882353,8,1,0,9,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-edas,babelnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,4,5,4,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-edas,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-iasted,babelnet_syn,ALL,0.4444444444444444,0.2857142857142857,0.0,0.34782608695652173,4,5,10,9,1015220644,00:00:01,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-iasted,babelnet_syn,CLASSES,0.5,0.3076923076923077,0.0,0.380952380952381,4,4,9,8,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-iasted,babelnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,1,1,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-iasted,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-ekaw,babelnet_syn,ALL,0.5882352941176471,0.4,0.0625,0.4761904761904762,10,7,15,17,607429810,00:00:00,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-ekaw,babelnet_syn,CLASSES,0.6923076923076923,0.391304347826087,0.06666666666666667,0.5,9,4,14,13,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-ekaw,babelnet_syn,PROPERTIES,0.25,0.5,0.0,0.3333333333333333,1,3,1,4,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-ekaw,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-edas,babelnet_syn,ALL,0.5294117647058824,0.5294117647058824,0.0,0.5294117647058824,9,8,8,17,853951514,00:00:00,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-edas,babelnet_syn,CLASSES,0.7777777777777778,0.5,0.0,0.6086956521739131,7,2,7,9,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-edas,babelnet_syn,PROPERTIES,0.25,0.6666666666666666,0.0,0.36363636363636365,2,6,1,8,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,conference-edas,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,ekaw-sigkdd,babelnet_syn,ALL,0.8,0.7272727272727273,0.25,0.761904761904762,8,2,3,10,343105157,00:00:00,0.5,SYNONYMY,BabelNet Symbolic
+conference,ekaw-sigkdd,babelnet_syn,CLASSES,0.8,0.7272727272727273,0.25,0.761904761904762,8,2,3,10,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,ekaw-sigkdd,babelnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,ekaw-sigkdd,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-iasted,babelnet_syn,ALL,0.6666666666666666,1.0,0.0,0.8,4,2,0,6,9439345483,00:00:09,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-iasted,babelnet_syn,CLASSES,0.8,1.0,0.0,0.888888888888889,4,1,0,5,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-iasted,babelnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,0,1,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,cmt-iasted,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,edas-sigkdd,babelnet_syn,ALL,0.875,0.4666666666666667,0.0,0.608695652173913,7,1,8,8,715609981,00:00:00,0.5,SYNONYMY,BabelNet Symbolic
+conference,edas-sigkdd,babelnet_syn,CLASSES,1.0,0.6363636363636364,0.0,0.7777777777777778,7,0,4,7,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,edas-sigkdd,babelnet_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,4,1,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,edas-sigkdd,babelnet_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic
+conference,confof-iasted,webIsClassic_syn,ALL,0.6666666666666666,0.4444444444444444,0.0,0.5333333333333333,4,2,5,6,300676797,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,confof-iasted,webIsClassic_syn,CLASSES,0.6666666666666666,0.4444444444444444,0.0,0.5333333333333333,4,2,5,6,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,confof-iasted,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,confof-iasted,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,ekaw-iasted,webIsClassic_syn,ALL,0.6666666666666666,0.6,0.0,0.631578947368421,6,3,4,9,565632401,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,ekaw-iasted,webIsClassic_syn,CLASSES,0.8571428571428571,0.6,0.0,0.7058823529411764,6,1,4,7,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,ekaw-iasted,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,ekaw-iasted,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,edas-iasted,webIsClassic_syn,ALL,0.6363636363636364,0.3684210526315789,0.0,0.4666666666666667,7,4,12,11,682239786,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,edas-iasted,webIsClassic_syn,CLASSES,0.7,0.3684210526315789,0.0,0.48275862068965514,7,3,12,10,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,edas-iasted,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,0,1,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,edas-iasted,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-sigkdd,webIsClassic_syn,ALL,0.7272727272727273,0.6666666666666666,0.0,0.6956521739130435,8,3,4,11,85118717,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-sigkdd,webIsClassic_syn,CLASSES,0.8888888888888888,0.8,0.0,0.8421052631578948,8,1,2,9,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-sigkdd,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,2,2,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-sigkdd,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+anatomy_track,mouse-human-suite,webIsClassic_syn,ALL,0.9668202764976959,0.691952506596306,0.0,0.8066128412149172,1049,36,467,1085,928810219383,00:15:28,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+anatomy_track,mouse-human-suite,webIsClassic_syn,CLASSES,0.9686057248384118,0.691952506596306,0.0,0.8072335513659099,1049,34,467,1083,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+anatomy_track,mouse-human-suite,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+anatomy_track,mouse-human-suite,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+largebio,small-fma-nci,webIsClassic_syn,ALL,0.9793672627235214,0.265078183172003,0.0,0.4172282449457955,712,15,1974,810,13826304876702,03:50:26,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+largebio,small-fma-nci,webIsClassic_syn,CLASSES,0.9793672627235214,0.265078183172003,0.0,0.4172282449457955,712,15,1974,810,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+largebio,small-fma-nci,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+largebio,small-fma-nci,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,confof-sigkdd,webIsClassic_syn,ALL,1.0,0.5714285714285714,0.0,0.7272727272727273,4,0,3,4,104308667,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,confof-sigkdd,webIsClassic_syn,CLASSES,1.0,0.6666666666666666,0.0,0.8,4,0,2,4,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,confof-sigkdd,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,1,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,confof-sigkdd,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-conference,webIsClassic_syn,ALL,0.625,0.3333333333333333,0.0,0.43478260869565216,5,3,10,8,19638879119,00:00:19,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-conference,webIsClassic_syn,CLASSES,0.6666666666666666,0.3333333333333333,0.0,0.4444444444444444,4,2,8,6,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-conference,webIsClassic_syn,PROPERTIES,0.5,0.3333333333333333,0.0,0.4,1,1,2,2,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-conference,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-confof,webIsClassic_syn,ALL,0.6666666666666666,0.375,0.0,0.4800000000000001,6,3,10,9,1606483169,00:00:01,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-confof,webIsClassic_syn,CLASSES,0.8,0.4,0.0,0.5333333333333333,4,1,6,5,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-confof,webIsClassic_syn,PROPERTIES,0.5,0.3333333333333333,0.0,0.4,2,2,4,4,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-confof,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-confof,webIsClassic_syn,ALL,0.6923076923076923,0.6,0.0,0.6428571428571429,9,4,6,13,138727629,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-confof,webIsClassic_syn,CLASSES,0.7777777777777778,0.6363636363636364,0.0,0.7000000000000001,7,2,4,9,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-confof,webIsClassic_syn,PROPERTIES,0.5,0.5,0.0,0.5,2,2,2,4,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-confof,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-sigkdd,webIsClassic_syn,ALL,0.8,0.5333333333333333,0.0,0.64,8,2,7,10,142397719,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-sigkdd,webIsClassic_syn,CLASSES,0.8888888888888888,0.6666666666666666,0.0,0.761904761904762,8,1,4,9,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-sigkdd,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,3,1,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-sigkdd,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,confof-ekaw,webIsClassic_syn,ALL,0.7142857142857143,0.5,0.0,0.588235294117647,10,4,10,14,138165456,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,confof-ekaw,webIsClassic_syn,CLASSES,0.8333333333333334,0.5,0.0,0.625,10,2,10,12,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,confof-ekaw,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,confof-ekaw,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,confof-edas,webIsClassic_syn,ALL,0.55,0.5789473684210527,0.0,0.5641025641025641,11,9,8,20,144661975,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,confof-edas,webIsClassic_syn,CLASSES,0.8181818181818182,0.6428571428571429,0.0,0.7200000000000001,9,2,5,11,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,confof-edas,webIsClassic_syn,PROPERTIES,0.2222222222222222,0.4,0.0,0.2857142857142857,2,7,3,9,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,confof-edas,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-ekaw,webIsClassic_syn,ALL,0.7142857142857143,0.45454545454545453,0.0,0.5555555555555556,5,2,6,7,782155351,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-ekaw,webIsClassic_syn,CLASSES,1.0,0.625,0.0,0.7692307692307693,5,0,3,5,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-ekaw,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,3,2,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-ekaw,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,edas-ekaw,webIsClassic_syn,ALL,0.5,0.391304347826087,0.0,0.4390243902439025,9,9,14,18,425424400,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,edas-ekaw,webIsClassic_syn,CLASSES,0.6,0.47368421052631576,0.0,0.5294117647058824,9,6,10,15,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,edas-ekaw,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,3,4,3,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,edas-ekaw,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-edas,webIsClassic_syn,ALL,0.7272727272727273,0.6153846153846154,0.0,0.6666666666666667,8,3,5,11,1356312246,00:00:01,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-edas,webIsClassic_syn,CLASSES,1.0,1.0,0.0,1.0,8,0,0,8,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-edas,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,3,5,3,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-edas,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,iasted-sigkdd,webIsClassic_syn,ALL,0.6875,0.7333333333333333,0.0,0.7096774193548386,11,5,4,16,232253803,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,iasted-sigkdd,webIsClassic_syn,CLASSES,0.9166666666666666,0.7333333333333333,0.0,0.8148148148148148,11,1,4,12,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,iasted-sigkdd,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,4,0,4,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,iasted-sigkdd,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-iasted,webIsClassic_syn,ALL,0.5,0.2857142857142857,0.0,0.36363636363636365,4,4,10,8,550421723,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-iasted,webIsClassic_syn,CLASSES,0.5714285714285714,0.3076923076923077,0.0,0.4,4,3,9,7,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-iasted,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,1,1,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-iasted,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-ekaw,webIsClassic_syn,ALL,0.5625,0.36,0.0,0.43902439024390244,9,7,16,16,238356761,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-ekaw,webIsClassic_syn,CLASSES,0.5714285714285714,0.34782608695652173,0.0,0.4324324324324324,8,6,15,14,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-ekaw,webIsClassic_syn,PROPERTIES,0.5,0.5,0.0,0.5,1,1,1,2,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-ekaw,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-edas,webIsClassic_syn,ALL,0.6428571428571429,0.5294117647058824,0.0,0.5806451612903226,9,5,8,14,550616730,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-edas,webIsClassic_syn,CLASSES,0.7777777777777778,0.5,0.0,0.6086956521739131,7,2,7,9,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-edas,webIsClassic_syn,PROPERTIES,0.4,0.6666666666666666,0.0,0.5,2,3,1,5,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,conference-edas,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-iasted,webIsClassic_syn,ALL,0.5714285714285714,1.0,0.0,0.7272727272727273,4,3,0,7,715798992,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-iasted,webIsClassic_syn,CLASSES,0.6666666666666666,1.0,0.0,0.8,4,2,0,6,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-iasted,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,0,1,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,cmt-iasted,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,ekaw-sigkdd,webIsClassic_syn,ALL,0.875,0.6363636363636364,0.0,0.7368421052631579,7,1,4,8,155463855,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,ekaw-sigkdd,webIsClassic_syn,CLASSES,0.875,0.6363636363636364,0.0,0.7368421052631579,7,1,4,8,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,ekaw-sigkdd,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,ekaw-sigkdd,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,edas-sigkdd,webIsClassic_syn,ALL,0.7777777777777778,0.4666666666666667,0.0,0.5833333333333334,7,2,8,9,232990761,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,edas-sigkdd,webIsClassic_syn,CLASSES,0.875,0.6363636363636364,0.0,0.7368421052631579,7,1,4,8,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,edas-sigkdd,webIsClassic_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,4,1,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,edas-sigkdd,webIsClassic_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+conference,confof-iasted,dbpedia_syn,ALL,0.5714285714285714,0.4444444444444444,0.0,0.5,4,3,5,7,582299585,00:00:00,0.5,SYNONYMY,DBpedia
+conference,confof-iasted,dbpedia_syn,CLASSES,0.6666666666666666,0.4444444444444444,0.0,0.5333333333333333,4,2,5,6,-,-,0.5,SYNONYMY,DBpedia
+conference,confof-iasted,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,0,1,-,-,0.5,SYNONYMY,DBpedia
+conference,confof-iasted,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,ekaw-iasted,dbpedia_syn,ALL,0.75,0.6,0.0,0.6666666666666665,6,2,4,8,993946433,00:00:00,0.5,SYNONYMY,DBpedia
+conference,ekaw-iasted,dbpedia_syn,CLASSES,0.8571428571428571,0.6,0.0,0.7058823529411764,6,1,4,7,-,-,0.5,SYNONYMY,DBpedia
+conference,ekaw-iasted,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,0,1,-,-,0.5,SYNONYMY,DBpedia
+conference,ekaw-iasted,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,edas-iasted,dbpedia_syn,ALL,0.875,0.3684210526315789,0.0,0.5185185185185185,7,1,12,8,1248468147,00:00:01,0.5,SYNONYMY,DBpedia
+conference,edas-iasted,dbpedia_syn,CLASSES,0.875,0.3684210526315789,0.0,0.5185185185185185,7,1,12,8,-,-,0.5,SYNONYMY,DBpedia
+conference,edas-iasted,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,edas-iasted,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+anatomy_track,mouse-human-suite,dbpedia_syn,ALL,0.9355692850838482,0.6992084432717678,0.024830699774266364,0.8003020007550019,1060,73,456,1133,488559683599,00:08:08,0.5,SYNONYMY,DBpedia
+anatomy_track,mouse-human-suite,dbpedia_syn,CLASSES,0.9372236958443855,0.6992084432717678,0.024830699774266364,0.8009066868152624,1060,71,456,1131,-,-,0.5,SYNONYMY,DBpedia
+anatomy_track,mouse-human-suite,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,0.5,SYNONYMY,DBpedia
+anatomy_track,mouse-human-suite,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-sigkdd,dbpedia_syn,ALL,0.7272727272727273,0.6666666666666666,0.0,0.6956521739130435,8,3,4,11,108342140,00:00:00,0.5,SYNONYMY,DBpedia
+conference,cmt-sigkdd,dbpedia_syn,CLASSES,1.0,0.8,0.0,0.888888888888889,8,0,2,8,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-sigkdd,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,3,2,3,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-sigkdd,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+largebio,small-fma-nci,dbpedia_syn,ALL,0.9165067178502879,0.3555472822040209,0.1234128999492128,0.5123390557939914,955,87,1731,1140,792254067773,00:13:12,0.5,SYNONYMY,DBpedia
+largebio,small-fma-nci,dbpedia_syn,CLASSES,0.9165067178502879,0.3555472822040209,0.1234128999492128,0.5123390557939914,955,87,1731,1140,-,-,0.5,SYNONYMY,DBpedia
+largebio,small-fma-nci,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+largebio,small-fma-nci,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,confof-sigkdd,dbpedia_syn,ALL,1.0,0.5714285714285714,0.0,0.7272727272727273,4,0,3,4,182250568,00:00:00,0.5,SYNONYMY,DBpedia
+conference,confof-sigkdd,dbpedia_syn,CLASSES,1.0,0.6666666666666666,0.0,0.8,4,0,2,4,-,-,0.5,SYNONYMY,DBpedia
+conference,confof-sigkdd,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,1,0,-,-,0.5,SYNONYMY,DBpedia
+conference,confof-sigkdd,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-conference,dbpedia_syn,ALL,0.5555555555555556,0.3333333333333333,0.0,0.4166666666666667,5,4,10,9,3970831392,00:00:03,0.5,SYNONYMY,DBpedia
+conference,cmt-conference,dbpedia_syn,CLASSES,0.6666666666666666,0.3333333333333333,0.0,0.4444444444444444,4,2,8,6,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-conference,dbpedia_syn,PROPERTIES,0.3333333333333333,0.3333333333333333,0.0,0.3333333333333333,1,2,2,3,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-conference,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-confof,dbpedia_syn,ALL,0.75,0.375,0.0,0.5,6,2,10,8,252990514,00:00:00,0.5,SYNONYMY,DBpedia
+conference,cmt-confof,dbpedia_syn,CLASSES,0.8,0.4,0.0,0.5333333333333333,4,1,6,5,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-confof,dbpedia_syn,PROPERTIES,0.6666666666666666,0.3333333333333333,0.0,0.4444444444444444,2,1,4,3,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-confof,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,conference-confof,dbpedia_syn,ALL,0.8181818181818182,0.6,0.0,0.6923076923076923,9,2,6,11,216788265,00:00:00,0.5,SYNONYMY,DBpedia
+conference,conference-confof,dbpedia_syn,CLASSES,0.875,0.6363636363636364,0.0,0.7368421052631579,7,1,4,8,-,-,0.5,SYNONYMY,DBpedia
+conference,conference-confof,dbpedia_syn,PROPERTIES,0.6666666666666666,0.5,0.0,0.5714285714285715,2,1,2,3,-,-,0.5,SYNONYMY,DBpedia
+conference,conference-confof,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,conference-sigkdd,dbpedia_syn,ALL,0.8,0.5333333333333333,0.0,0.64,8,2,7,10,205705715,00:00:00,0.5,SYNONYMY,DBpedia
+conference,conference-sigkdd,dbpedia_syn,CLASSES,0.8888888888888888,0.6666666666666666,0.0,0.761904761904762,8,1,4,9,-,-,0.5,SYNONYMY,DBpedia
+conference,conference-sigkdd,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,3,1,-,-,0.5,SYNONYMY,DBpedia
+conference,conference-sigkdd,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,confof-ekaw,dbpedia_syn,ALL,0.8333333333333334,0.5,0.0,0.625,10,2,10,12,229143812,00:00:00,0.5,SYNONYMY,DBpedia
+conference,confof-ekaw,dbpedia_syn,CLASSES,0.9090909090909091,0.5,0.0,0.6451612903225806,10,1,10,11,-,-,0.5,SYNONYMY,DBpedia
+conference,confof-ekaw,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,0,1,-,-,0.5,SYNONYMY,DBpedia
+conference,confof-ekaw,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,confof-edas,dbpedia_syn,ALL,0.6111111111111112,0.5789473684210527,0.0,0.5945945945945946,11,7,8,18,255493101,00:00:00,0.5,SYNONYMY,DBpedia
+conference,confof-edas,dbpedia_syn,CLASSES,0.9,0.6428571428571429,0.0,0.75,9,1,5,10,-,-,0.5,SYNONYMY,DBpedia
+conference,confof-edas,dbpedia_syn,PROPERTIES,0.25,0.4,0.0,0.3076923076923077,2,6,3,8,-,-,0.5,SYNONYMY,DBpedia
+conference,confof-edas,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-ekaw,dbpedia_syn,ALL,0.7142857142857143,0.45454545454545453,0.0,0.5555555555555556,5,2,6,7,335911550,00:00:00,0.5,SYNONYMY,DBpedia
+conference,cmt-ekaw,dbpedia_syn,CLASSES,1.0,0.625,0.0,0.7692307692307693,5,0,3,5,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-ekaw,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,3,2,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-ekaw,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,edas-ekaw,dbpedia_syn,ALL,0.5625,0.391304347826087,0.0,0.46153846153846156,9,7,14,16,708016210,00:00:00,0.5,SYNONYMY,DBpedia
+conference,edas-ekaw,dbpedia_syn,CLASSES,0.6923076923076923,0.47368421052631576,0.0,0.5625,9,4,10,13,-,-,0.5,SYNONYMY,DBpedia
+conference,edas-ekaw,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,3,4,3,-,-,0.5,SYNONYMY,DBpedia
+conference,edas-ekaw,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,iasted-sigkdd,dbpedia_syn,ALL,0.7333333333333333,0.7333333333333333,0.0,0.7333333333333333,11,4,4,15,425723182,00:00:00,0.5,SYNONYMY,DBpedia
+conference,iasted-sigkdd,dbpedia_syn,CLASSES,0.9166666666666666,0.7333333333333333,0.0,0.8148148148148148,11,1,4,12,-,-,0.5,SYNONYMY,DBpedia
+conference,iasted-sigkdd,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,3,0,3,-,-,0.5,SYNONYMY,DBpedia
+conference,iasted-sigkdd,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-edas,dbpedia_syn,ALL,0.7272727272727273,0.6153846153846154,0.0,0.6666666666666667,8,3,5,11,301174823,00:00:00,0.5,SYNONYMY,DBpedia
+conference,cmt-edas,dbpedia_syn,CLASSES,1.0,1.0,0.0,1.0,8,0,0,8,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-edas,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,3,5,3,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-edas,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,conference-iasted,dbpedia_syn,ALL,0.6666666666666666,0.2857142857142857,0.0,0.4,4,2,10,6,815411039,00:00:00,0.5,SYNONYMY,DBpedia
+conference,conference-iasted,dbpedia_syn,CLASSES,0.8,0.3076923076923077,0.0,0.4444444444444444,4,1,9,5,-,-,0.5,SYNONYMY,DBpedia
+conference,conference-iasted,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,1,1,-,-,0.5,SYNONYMY,DBpedia
+conference,conference-iasted,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,conference-ekaw,dbpedia_syn,ALL,0.5625,0.36,0.0,0.43902439024390244,9,7,16,16,474113678,00:00:00,0.5,SYNONYMY,DBpedia
+conference,conference-ekaw,dbpedia_syn,CLASSES,0.6666666666666666,0.34782608695652173,0.0,0.4571428571428571,8,4,15,12,-,-,0.5,SYNONYMY,DBpedia
+conference,conference-ekaw,dbpedia_syn,PROPERTIES,0.25,0.5,0.0,0.3333333333333333,1,3,1,4,-,-,0.5,SYNONYMY,DBpedia
+conference,conference-ekaw,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,conference-edas,dbpedia_syn,ALL,0.6428571428571429,0.5294117647058824,0.0,0.5806451612903226,9,5,8,14,606378596,00:00:00,0.5,SYNONYMY,DBpedia
+conference,conference-edas,dbpedia_syn,CLASSES,0.7777777777777778,0.5,0.0,0.6086956521739131,7,2,7,9,-,-,0.5,SYNONYMY,DBpedia
+conference,conference-edas,dbpedia_syn,PROPERTIES,0.4,0.6666666666666666,0.0,0.5,2,3,1,5,-,-,0.5,SYNONYMY,DBpedia
+conference,conference-edas,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,ekaw-sigkdd,dbpedia_syn,ALL,0.875,0.6363636363636364,0.0,0.7368421052631579,7,1,4,8,244745055,00:00:00,0.5,SYNONYMY,DBpedia
+conference,ekaw-sigkdd,dbpedia_syn,CLASSES,0.875,0.6363636363636364,0.0,0.7368421052631579,7,1,4,8,-,-,0.5,SYNONYMY,DBpedia
+conference,ekaw-sigkdd,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,ekaw-sigkdd,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-iasted,dbpedia_syn,ALL,0.8,1.0,0.0,0.888888888888889,4,1,0,5,465696450,00:00:00,0.5,SYNONYMY,DBpedia
+conference,cmt-iasted,dbpedia_syn,CLASSES,0.8,1.0,0.0,0.888888888888889,4,1,0,5,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-iasted,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,cmt-iasted,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,edas-sigkdd,dbpedia_syn,ALL,0.7777777777777778,0.4666666666666667,0.0,0.5833333333333334,7,2,8,9,440927982,00:00:00,0.5,SYNONYMY,DBpedia
+conference,edas-sigkdd,dbpedia_syn,CLASSES,1.0,0.6363636363636364,0.0,0.7777777777777778,7,0,4,7,-,-,0.5,SYNONYMY,DBpedia
+conference,edas-sigkdd,dbpedia_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,4,2,-,-,0.5,SYNONYMY,DBpedia
+conference,edas-sigkdd,dbpedia_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,DBpedia
+conference,confof-iasted,wiktionary_syn,ALL,0.6666666666666666,0.4444444444444444,0.0,0.5333333333333333,4,2,5,6,229652818,00:00:00,0.5,SYNONYMY,Wiktionary
+conference,confof-iasted,wiktionary_syn,CLASSES,0.6666666666666666,0.4444444444444444,0.0,0.5333333333333333,4,2,5,6,-,-,0.5,SYNONYMY,Wiktionary
+conference,confof-iasted,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,confof-iasted,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,ekaw-iasted,wiktionary_syn,ALL,0.7,0.7,0.25,0.7,7,3,3,10,510173498,00:00:00,0.5,SYNONYMY,Wiktionary
+conference,ekaw-iasted,wiktionary_syn,CLASSES,0.875,0.7,0.25,0.7777777777777777,7,1,3,8,-,-,0.5,SYNONYMY,Wiktionary
+conference,ekaw-iasted,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,0.5,SYNONYMY,Wiktionary
+conference,ekaw-iasted,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,edas-iasted,wiktionary_syn,ALL,0.7,0.3684210526315789,0.0,0.48275862068965514,7,3,12,10,732322369,00:00:00,0.5,SYNONYMY,Wiktionary
+conference,edas-iasted,wiktionary_syn,CLASSES,0.7,0.3684210526315789,0.0,0.48275862068965514,7,3,12,10,-,-,0.5,SYNONYMY,Wiktionary
+conference,edas-iasted,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,edas-iasted,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+anatomy_track,mouse-human-suite,wiktionary_syn,ALL,0.967713004484305,0.7117414248021108,0.06772009029345373,0.8202204484986697,1079,36,437,1115,764723212681,00:12:44,0.5,SYNONYMY,Wiktionary
+anatomy_track,mouse-human-suite,wiktionary_syn,CLASSES,0.9694519317160827,0.7117414248021108,0.06772009029345373,0.8208444275389881,1079,34,437,1113,-,-,0.5,SYNONYMY,Wiktionary
+anatomy_track,mouse-human-suite,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,0.5,SYNONYMY,Wiktionary
+anatomy_track,mouse-human-suite,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-sigkdd,wiktionary_syn,ALL,0.8,0.6666666666666666,0.0,0.7272727272727272,8,2,4,10,4578468454,00:00:04,0.5,SYNONYMY,Wiktionary
+conference,cmt-sigkdd,wiktionary_syn,CLASSES,1.0,0.8,0.0,0.888888888888889,8,0,2,8,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-sigkdd,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,2,2,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-sigkdd,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+largebio,small-fma-nci,wiktionary_syn,ALL,0.9767741935483871,0.28183172002978407,0.0228542407313357,0.43744582490609657,757,18,1929,860,1356408627942,00:22:36,0.5,SYNONYMY,Wiktionary
+largebio,small-fma-nci,wiktionary_syn,CLASSES,0.9767741935483871,0.28183172002978407,0.0228542407313357,0.43744582490609657,757,18,1929,860,-,-,0.5,SYNONYMY,Wiktionary
+largebio,small-fma-nci,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+largebio,small-fma-nci,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,confof-sigkdd,wiktionary_syn,ALL,1.0,0.7142857142857143,0.3333333333333333,0.8333333333333333,5,0,2,5,112888941,00:00:00,0.5,SYNONYMY,Wiktionary
+conference,confof-sigkdd,wiktionary_syn,CLASSES,1.0,0.8333333333333334,0.5,0.9090909090909091,5,0,1,5,-,-,0.5,SYNONYMY,Wiktionary
+conference,confof-sigkdd,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,1,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,confof-sigkdd,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-conference,wiktionary_syn,ALL,0.6,0.4,0.1,0.48,6,4,9,10,26424194022,00:00:26,0.5,SYNONYMY,Wiktionary
+conference,cmt-conference,wiktionary_syn,CLASSES,0.625,0.4166666666666667,0.125,0.5,5,3,7,8,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-conference,wiktionary_syn,PROPERTIES,0.5,0.3333333333333333,0.0,0.4,1,1,2,2,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-conference,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-confof,wiktionary_syn,ALL,0.6923076923076923,0.5625,0.3,0.6206896551724138,9,4,7,13,5253042811,00:00:05,0.5,SYNONYMY,Wiktionary
+conference,cmt-confof,wiktionary_syn,CLASSES,0.7777777777777778,0.7,0.5,0.7368421052631577,7,2,3,9,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-confof,wiktionary_syn,PROPERTIES,0.5,0.3333333333333333,0.0,0.4,2,2,4,4,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-confof,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,conference-sigkdd,wiktionary_syn,ALL,0.8,0.5333333333333333,0.0,0.64,8,2,7,10,145990180,00:00:00,0.5,SYNONYMY,Wiktionary
+conference,conference-sigkdd,wiktionary_syn,CLASSES,0.8888888888888888,0.6666666666666666,0.0,0.761904761904762,8,1,4,9,-,-,0.5,SYNONYMY,Wiktionary
+conference,conference-sigkdd,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,3,1,-,-,0.5,SYNONYMY,Wiktionary
+conference,conference-sigkdd,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,conference-confof,wiktionary_syn,ALL,0.75,0.6,0.0,0.6666666666666665,9,3,6,12,355596529,00:00:00,0.5,SYNONYMY,Wiktionary
+conference,conference-confof,wiktionary_syn,CLASSES,0.7777777777777778,0.6363636363636364,0.0,0.7000000000000001,7,2,4,9,-,-,0.5,SYNONYMY,Wiktionary
+conference,conference-confof,wiktionary_syn,PROPERTIES,0.6666666666666666,0.5,0.0,0.5714285714285715,2,1,2,3,-,-,0.5,SYNONYMY,Wiktionary
+conference,conference-confof,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,confof-ekaw,wiktionary_syn,ALL,0.8333333333333334,0.5,0.0,0.625,10,2,10,12,144534810,00:00:00,0.5,SYNONYMY,Wiktionary
+conference,confof-ekaw,wiktionary_syn,CLASSES,0.9090909090909091,0.5,0.0,0.6451612903225806,10,1,10,11,-,-,0.5,SYNONYMY,Wiktionary
+conference,confof-ekaw,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,0,1,-,-,0.5,SYNONYMY,Wiktionary
+conference,confof-ekaw,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,confof-edas,wiktionary_syn,ALL,0.6666666666666666,0.7368421052631579,0.375,0.7,14,7,5,21,235730690,00:00:00,0.5,SYNONYMY,Wiktionary
+conference,confof-edas,wiktionary_syn,CLASSES,0.9166666666666666,0.7857142857142857,0.4,0.8461538461538461,11,1,3,12,-,-,0.5,SYNONYMY,Wiktionary
+conference,confof-edas,wiktionary_syn,PROPERTIES,0.3333333333333333,0.6,0.3333333333333333,0.42857142857142855,3,6,2,9,-,-,0.5,SYNONYMY,Wiktionary
+conference,confof-edas,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,edas-ekaw,wiktionary_syn,ALL,0.6470588235294118,0.4782608695652174,0.15384615384615385,0.55,11,6,12,17,1469082366,00:00:01,0.5,SYNONYMY,Wiktionary
+conference,edas-ekaw,wiktionary_syn,CLASSES,0.7857142857142857,0.5789473684210527,0.2,0.6666666666666667,11,3,8,14,-,-,0.5,SYNONYMY,Wiktionary
+conference,edas-ekaw,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,3,4,3,-,-,0.5,SYNONYMY,Wiktionary
+conference,edas-ekaw,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-ekaw,wiktionary_syn,ALL,0.5555555555555556,0.45454545454545453,0.0,0.5,5,4,6,9,6676510234,00:00:06,0.5,SYNONYMY,Wiktionary
+conference,cmt-ekaw,wiktionary_syn,CLASSES,0.7142857142857143,0.625,0.0,0.6666666666666666,5,2,3,7,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-ekaw,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,3,2,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-ekaw,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-edas,wiktionary_syn,ALL,0.5714285714285714,0.6153846153846154,0.0,0.5925925925925927,8,6,5,14,15493353507,00:00:15,0.5,SYNONYMY,Wiktionary
+conference,cmt-edas,wiktionary_syn,CLASSES,0.8,1.0,0.0,0.888888888888889,8,2,0,10,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-edas,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,4,5,4,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-edas,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,iasted-sigkdd,wiktionary_syn,ALL,0.6875,0.7333333333333333,0.0,0.7096774193548386,11,5,4,16,221885156,00:00:00,0.5,SYNONYMY,Wiktionary
+conference,iasted-sigkdd,wiktionary_syn,CLASSES,0.8461538461538461,0.7333333333333333,0.0,0.7857142857142856,11,2,4,13,-,-,0.5,SYNONYMY,Wiktionary
+conference,iasted-sigkdd,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,3,0,3,-,-,0.5,SYNONYMY,Wiktionary
+conference,iasted-sigkdd,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,conference-iasted,wiktionary_syn,ALL,0.5,0.2857142857142857,0.0,0.36363636363636365,4,4,10,8,507669320,00:00:00,0.5,SYNONYMY,Wiktionary
+conference,conference-iasted,wiktionary_syn,CLASSES,0.5714285714285714,0.3076923076923077,0.0,0.4,4,3,9,7,-,-,0.5,SYNONYMY,Wiktionary
+conference,conference-iasted,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,1,1,-,-,0.5,SYNONYMY,Wiktionary
+conference,conference-iasted,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,conference-ekaw,wiktionary_syn,ALL,0.6428571428571429,0.36,0.0,0.4615384615384615,9,5,16,14,432708953,00:00:00,0.5,SYNONYMY,Wiktionary
+conference,conference-ekaw,wiktionary_syn,CLASSES,0.6666666666666666,0.34782608695652173,0.0,0.4571428571428571,8,4,15,12,-,-,0.5,SYNONYMY,Wiktionary
+conference,conference-ekaw,wiktionary_syn,PROPERTIES,0.5,0.5,0.0,0.5,1,1,1,2,-,-,0.5,SYNONYMY,Wiktionary
+conference,conference-ekaw,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,conference-edas,wiktionary_syn,ALL,0.6428571428571429,0.5294117647058824,0.0,0.5806451612903226,9,5,8,14,534674613,00:00:00,0.5,SYNONYMY,Wiktionary
+conference,conference-edas,wiktionary_syn,CLASSES,0.875,0.5,0.0,0.6363636363636364,7,1,7,8,-,-,0.5,SYNONYMY,Wiktionary
+conference,conference-edas,wiktionary_syn,PROPERTIES,0.3333333333333333,0.6666666666666666,0.0,0.4444444444444444,2,4,1,6,-,-,0.5,SYNONYMY,Wiktionary
+conference,conference-edas,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,ekaw-sigkdd,wiktionary_syn,ALL,0.8,0.7272727272727273,0.25,0.761904761904762,8,2,3,10,134241894,00:00:00,0.5,SYNONYMY,Wiktionary
+conference,ekaw-sigkdd,wiktionary_syn,CLASSES,0.8,0.7272727272727273,0.25,0.761904761904762,8,2,3,10,-,-,0.5,SYNONYMY,Wiktionary
+conference,ekaw-sigkdd,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,ekaw-sigkdd,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-iasted,wiktionary_syn,ALL,0.5714285714285714,1.0,0.0,0.7272727272727273,4,3,0,7,16192730716,00:00:16,0.5,SYNONYMY,Wiktionary
+conference,cmt-iasted,wiktionary_syn,CLASSES,0.6666666666666666,1.0,0.0,0.8,4,2,0,6,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-iasted,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,0,1,-,-,0.5,SYNONYMY,Wiktionary
+conference,cmt-iasted,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,edas-sigkdd,wiktionary_syn,ALL,0.875,0.4666666666666667,0.0,0.608695652173913,7,1,8,8,280213201,00:00:00,0.5,SYNONYMY,Wiktionary
+conference,edas-sigkdd,wiktionary_syn,CLASSES,1.0,0.6363636363636364,0.0,0.7777777777777778,7,0,4,7,-,-,0.5,SYNONYMY,Wiktionary
+conference,edas-sigkdd,wiktionary_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,4,1,-,-,0.5,SYNONYMY,Wiktionary
+conference,edas-sigkdd,wiktionary_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,Wiktionary
+conference,confof-iasted,COMBINED_Syn,ALL,0.375,0.6666666666666666,0.4,0.4800000000000001,6,10,3,16,0,00:00:00,-,-,-
+conference,confof-iasted,COMBINED_Syn,CLASSES,0.42857142857142855,0.6666666666666666,0.4,0.5217391304347826,6,8,3,14,-,-,-,-,-
+conference,confof-iasted,COMBINED_Syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,-,-,-
+conference,confof-iasted,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,ekaw-iasted,COMBINED_Syn,ALL,0.3181818181818182,0.7,0.25,0.4375,7,15,3,22,0,00:00:00,-,-,-
+conference,ekaw-iasted,COMBINED_Syn,CLASSES,0.4117647058823529,0.7,0.25,0.5185185185185185,7,10,3,17,-,-,-,-,-
+conference,ekaw-iasted,COMBINED_Syn,PROPERTIES,0.0,0.0,0.0,0.0,0,5,0,5,-,-,-,-,-
+conference,ekaw-iasted,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,edas-iasted,COMBINED_Syn,ALL,0.47619047619047616,0.5263157894736842,0.25,0.5,10,11,9,21,0,00:00:00,-,-,-
+conference,edas-iasted,COMBINED_Syn,CLASSES,0.5882352941176471,0.5263157894736842,0.25,0.5555555555555555,10,7,9,17,-,-,-,-,-
+conference,edas-iasted,COMBINED_Syn,PROPERTIES,0.0,0.0,0.0,0.0,0,4,0,4,-,-,-,-,-
+conference,edas-iasted,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+anatomy_track,mouse-human-suite,COMBINED_Syn,ALL,0.8819188191881919,0.7882585751978892,0.3295711060948081,0.8324625566004877,1195,160,321,1355,0,00:00:00,-,-,-
+anatomy_track,mouse-human-suite,COMBINED_Syn,CLASSES,0.8832224685883222,0.7882585751978892,0.3295711060948081,0.8330428720808644,1195,158,321,1353,-,-,-,-,-
+anatomy_track,mouse-human-suite,COMBINED_Syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,-,-,-
+anatomy_track,mouse-human-suite,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,cmt-sigkdd,COMBINED_Syn,ALL,0.6,0.75,0.25,0.6666666666666665,9,6,3,15,0,00:00:00,-,-,-
+conference,cmt-sigkdd,COMBINED_Syn,CLASSES,0.8,0.8,0.0,0.8000000000000002,8,2,2,10,-,-,-,-,-
+conference,cmt-sigkdd,COMBINED_Syn,PROPERTIES,0.2,0.5,0.5,0.28571428571428575,1,4,1,5,-,-,-,-,-
+conference,cmt-sigkdd,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+largebio,small-fma-nci,COMBINED_Syn,ALL,0.8290155440414507,0.4765450483991065,0.2884713052310818,0.6052009456264774,1280,264,1406,1681,0,00:00:00,-,-,-
+largebio,small-fma-nci,COMBINED_Syn,CLASSES,0.8290155440414507,0.4765450483991065,0.2884713052310818,0.6052009456264774,1280,264,1406,1681,-,-,-,-,-
+largebio,small-fma-nci,COMBINED_Syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+largebio,small-fma-nci,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,confof-sigkdd,COMBINED_Syn,ALL,0.6666666666666666,0.8571428571428571,0.6666666666666666,0.75,6,3,1,9,0,00:00:00,-,-,-
+conference,confof-sigkdd,COMBINED_Syn,CLASSES,0.7142857142857143,0.8333333333333334,0.5,0.7692307692307692,5,2,1,7,-,-,-,-,-
+conference,confof-sigkdd,COMBINED_Syn,PROPERTIES,0.5,1.0,1.0,0.6666666666666666,1,1,0,2,-,-,-,-,-
+conference,confof-sigkdd,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,cmt-conference,COMBINED_Syn,ALL,0.4666666666666667,0.4666666666666667,0.2,0.4666666666666667,7,8,8,15,0,00:00:00,-,-,-
+conference,cmt-conference,COMBINED_Syn,CLASSES,0.5454545454545454,0.5,0.25,0.5217391304347826,6,5,6,11,-,-,-,-,-
+conference,cmt-conference,COMBINED_Syn,PROPERTIES,0.25,0.3333333333333333,0.0,0.28571428571428575,1,3,2,4,-,-,-,-,-
+conference,cmt-conference,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,cmt-confof,COMBINED_Syn,ALL,0.6428571428571429,0.5625,0.3,0.6000000000000001,9,5,7,14,0,00:00:00,-,-,-
+conference,cmt-confof,COMBINED_Syn,CLASSES,0.7777777777777778,0.7,0.5,0.7368421052631577,7,2,3,9,-,-,-,-,-
+conference,cmt-confof,COMBINED_Syn,PROPERTIES,0.4,0.3333333333333333,0.0,0.3636363636363636,2,3,4,5,-,-,-,-,-
+conference,cmt-confof,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,conference-confof,COMBINED_Syn,ALL,0.5263157894736842,0.6666666666666666,0.16666666666666666,0.5882352941176471,10,9,5,19,0,00:00:00,-,-,-
+conference,conference-confof,COMBINED_Syn,CLASSES,0.5833333333333334,0.6363636363636364,0.0,0.6086956521739131,7,5,4,12,-,-,-,-,-
+conference,conference-confof,COMBINED_Syn,PROPERTIES,0.42857142857142855,0.75,0.5,0.5454545454545454,3,4,1,7,-,-,-,-,-
+conference,conference-confof,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,conference-sigkdd,COMBINED_Syn,ALL,0.7272727272727273,0.5333333333333333,0.0,0.6153846153846153,8,3,7,11,0,00:00:00,-,-,-
+conference,conference-sigkdd,COMBINED_Syn,CLASSES,0.8,0.6666666666666666,0.0,0.7272727272727272,8,2,4,10,-,-,-,-,-
+conference,conference-sigkdd,COMBINED_Syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,3,1,-,-,-,-,-
+conference,conference-sigkdd,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,confof-ekaw,COMBINED_Syn,ALL,0.6875,0.55,0.1,0.6111111111111112,11,5,9,16,0,00:00:00,-,-,-
+conference,confof-ekaw,COMBINED_Syn,CLASSES,0.7857142857142857,0.55,0.1,0.6470588235294117,11,3,9,14,-,-,-,-,-
+conference,confof-ekaw,COMBINED_Syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,-,-,-
+conference,confof-ekaw,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,confof-edas,COMBINED_Syn,ALL,0.6086956521739131,0.7368421052631579,0.375,0.6666666666666666,14,9,5,23,0,00:00:00,-,-,-
+conference,confof-edas,COMBINED_Syn,CLASSES,0.8461538461538461,0.7857142857142857,0.4,0.8148148148148148,11,2,3,13,-,-,-,-,-
+conference,confof-edas,COMBINED_Syn,PROPERTIES,0.3,0.6,0.3333333333333333,0.4,3,7,2,10,-,-,-,-,-
+conference,confof-edas,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,cmt-ekaw,COMBINED_Syn,ALL,0.46153846153846156,0.5454545454545454,0.16666666666666666,0.4999999999999999,6,7,5,13,0,00:00:00,-,-,-
+conference,cmt-ekaw,COMBINED_Syn,CLASSES,0.6,0.75,0.3333333333333333,0.6666666666666665,6,4,2,10,-,-,-,-,-
+conference,cmt-ekaw,COMBINED_Syn,PROPERTIES,0.0,0.0,0.0,0.0,0,3,3,3,-,-,-,-,-
+conference,cmt-ekaw,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,edas-ekaw,COMBINED_Syn,ALL,0.42857142857142855,0.5217391304347826,0.23076923076923078,0.47058823529411764,12,16,11,28,0,00:00:00,-,-,-
+conference,edas-ekaw,COMBINED_Syn,CLASSES,0.5217391304347826,0.631578947368421,0.3,0.5714285714285715,12,11,7,23,-,-,-,-,-
+conference,edas-ekaw,COMBINED_Syn,PROPERTIES,0.0,0.0,0.0,0.0,0,5,4,5,-,-,-,-,-
+conference,edas-ekaw,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,iasted-sigkdd,COMBINED_Syn,ALL,0.55,0.7333333333333333,0.0,0.6285714285714286,11,9,4,20,0,00:00:00,-,-,-
+conference,iasted-sigkdd,COMBINED_Syn,CLASSES,0.8461538461538461,0.7333333333333333,0.0,0.7857142857142856,11,2,4,13,-,-,-,-,-
+conference,iasted-sigkdd,COMBINED_Syn,PROPERTIES,0.0,0.0,0.0,0.0,0,7,0,7,-,-,-,-,-
+conference,iasted-sigkdd,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,cmt-edas,COMBINED_Syn,ALL,0.5,0.6153846153846154,0.0,0.5517241379310345,8,8,5,16,0,00:00:00,-,-,-
+conference,cmt-edas,COMBINED_Syn,CLASSES,0.7272727272727273,1.0,0.0,0.8421052631578948,8,3,0,11,-,-,-,-,-
+conference,cmt-edas,COMBINED_Syn,PROPERTIES,0.0,0.0,0.0,0.0,0,5,5,5,-,-,-,-,-
+conference,cmt-edas,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,conference-iasted,COMBINED_Syn,ALL,0.26666666666666666,0.2857142857142857,0.0,0.2758620689655172,4,11,10,15,0,00:00:00,-,-,-
+conference,conference-iasted,COMBINED_Syn,CLASSES,0.3076923076923077,0.3076923076923077,0.0,0.3076923076923077,4,9,9,13,-,-,-,-,-
+conference,conference-iasted,COMBINED_Syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,1,2,-,-,-,-,-
+conference,conference-iasted,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,conference-ekaw,COMBINED_Syn,ALL,0.4166666666666667,0.4,0.0625,0.4081632653061225,10,14,15,24,0,00:00:00,-,-,-
+conference,conference-ekaw,COMBINED_Syn,CLASSES,0.5294117647058824,0.391304347826087,0.06666666666666667,0.45,9,8,14,17,-,-,-,-,-
+conference,conference-ekaw,COMBINED_Syn,PROPERTIES,0.14285714285714285,0.5,0.0,0.22222222222222224,1,6,1,7,-,-,-,-,-
+conference,conference-ekaw,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,conference-edas,COMBINED_Syn,ALL,0.375,0.5294117647058824,0.0,0.4390243902439025,9,15,8,24,0,00:00:00,-,-,-
+conference,conference-edas,COMBINED_Syn,CLASSES,0.5,0.5,0.0,0.5,7,7,7,14,-,-,-,-,-
+conference,conference-edas,COMBINED_Syn,PROPERTIES,0.2,0.6666666666666666,0.0,0.30769230769230765,2,8,1,10,-,-,-,-,-
+conference,conference-edas,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,ekaw-sigkdd,COMBINED_Syn,ALL,0.6153846153846154,0.7272727272727273,0.25,0.6666666666666667,8,5,3,13,0,00:00:00,-,-,-
+conference,ekaw-sigkdd,COMBINED_Syn,CLASSES,0.6666666666666666,0.7272727272727273,0.25,0.6956521739130435,8,4,3,12,-,-,-,-,-
+conference,ekaw-sigkdd,COMBINED_Syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,0,1,-,-,-,-,-
+conference,ekaw-sigkdd,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,cmt-iasted,COMBINED_Syn,ALL,0.4,1.0,0.0,0.5714285714285715,4,6,0,10,0,00:00:00,-,-,-
+conference,cmt-iasted,COMBINED_Syn,CLASSES,0.5714285714285714,1.0,0.0,0.7272727272727273,4,3,0,7,-,-,-,-,-
+conference,cmt-iasted,COMBINED_Syn,PROPERTIES,0.0,0.0,0.0,0.0,0,3,0,3,-,-,-,-,-
+conference,cmt-iasted,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,edas-sigkdd,COMBINED_Syn,ALL,0.6363636363636364,0.4666666666666667,0.0,0.5384615384615385,7,4,8,11,0,00:00:00,-,-,-
+conference,edas-sigkdd,COMBINED_Syn,CLASSES,0.875,0.6363636363636364,0.0,0.7368421052631579,7,1,4,8,-,-,-,-,-
+conference,edas-sigkdd,COMBINED_Syn,PROPERTIES,0.0,0.0,0.0,0.0,0,3,4,3,-,-,-,-,-
+conference,edas-sigkdd,COMBINED_Syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,-,-,-
+conference,ekaw-iasted,wikidata_syn,ALL,0.5,0.7,0.25,0.5833333333333334,7,7,3,14,3213152690,00:00:03,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,ekaw-iasted,wikidata_syn,CLASSES,0.5833333333333334,0.7,0.25,0.6363636363636365,7,5,3,12,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,ekaw-iasted,wikidata_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,ekaw-iasted,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,confof-iasted,wikidata_syn,ALL,0.6666666666666666,0.6666666666666666,0.4,0.6666666666666666,6,3,3,9,1366730352,00:00:01,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,confof-iasted,wikidata_syn,CLASSES,0.8571428571428571,0.6666666666666666,0.4,0.75,6,1,3,7,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,confof-iasted,wikidata_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,confof-iasted,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,edas-iasted,wikidata_syn,ALL,0.6923076923076923,0.47368421052631576,0.16666666666666666,0.5625,9,4,10,13,3208783884,00:00:03,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,edas-iasted,wikidata_syn,CLASSES,0.8181818181818182,0.47368421052631576,0.16666666666666666,0.6,9,2,10,11,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,edas-iasted,wikidata_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,edas-iasted,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-sigkdd,wikidata_syn,ALL,0.6923076923076923,0.75,0.25,0.7199999999999999,9,4,3,13,465861459,00:00:00,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-sigkdd,wikidata_syn,CLASSES,0.8888888888888888,0.8,0.0,0.8421052631578948,8,1,2,9,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-sigkdd,wikidata_syn,PROPERTIES,0.25,0.5,0.5,0.3333333333333333,1,3,1,4,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-sigkdd,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+anatomy_track,mouse-human-suite,wikidata_syn,ALL,0.9243421052631579,0.741424802110818,0.16930022573363432,0.8228404099560762,1124,92,392,1216,660295272937,00:11:00,0.5,SYNONYMY,WikidataKnowledgeSource
+anatomy_track,mouse-human-suite,wikidata_syn,CLASSES,0.9258649093904449,0.741424802110818,0.16930022573363432,0.8234432234432234,1124,90,392,1214,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+anatomy_track,mouse-human-suite,wikidata_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+anatomy_track,mouse-human-suite,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+largebio,small-fma-nci,wikidata_syn,ALL,0.8941176470588236,0.33953834698436336,0.1015744032503809,0.49217485159201285,912,108,1774,1130,1470050344578,00:24:30,0.5,SYNONYMY,WikidataKnowledgeSource
+largebio,small-fma-nci,wikidata_syn,CLASSES,0.8941176470588236,0.33953834698436336,0.1015744032503809,0.49217485159201285,912,108,1774,1130,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+largebio,small-fma-nci,wikidata_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+largebio,small-fma-nci,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,confof-sigkdd,wikidata_syn,ALL,0.6666666666666666,0.5714285714285714,0.0,0.6153846153846153,4,2,3,6,555785613,00:00:00,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,confof-sigkdd,wikidata_syn,CLASSES,0.8,0.6666666666666666,0.0,0.7272727272727272,4,1,2,5,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,confof-sigkdd,wikidata_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,1,1,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,confof-sigkdd,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-conference,wikidata_syn,ALL,0.5454545454545454,0.4,0.1,0.4615384615384615,6,5,9,11,4453742619,00:00:04,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-conference,wikidata_syn,CLASSES,0.625,0.4166666666666667,0.125,0.5,5,3,7,8,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-conference,wikidata_syn,PROPERTIES,0.3333333333333333,0.3333333333333333,0.0,0.3333333333333333,1,2,2,3,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-conference,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-confof,wikidata_syn,ALL,0.75,0.375,0.0,0.5,6,2,10,8,757763449,00:00:00,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-confof,wikidata_syn,CLASSES,0.8,0.4,0.0,0.5333333333333333,4,1,6,5,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-confof,wikidata_syn,PROPERTIES,0.6666666666666666,0.3333333333333333,0.0,0.4444444444444444,2,1,4,3,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-confof,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-confof,wikidata_syn,ALL,0.6428571428571429,0.6,0.0,0.6206896551724138,9,5,6,14,1024287104,00:00:01,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-confof,wikidata_syn,CLASSES,0.7777777777777778,0.6363636363636364,0.0,0.7000000000000001,7,2,4,9,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-confof,wikidata_syn,PROPERTIES,0.4,0.5,0.0,0.4444444444444445,2,3,2,5,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-confof,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-sigkdd,wikidata_syn,ALL,0.8,0.5333333333333333,0.0,0.64,8,2,7,10,973686116,00:00:00,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-sigkdd,wikidata_syn,CLASSES,0.8888888888888888,0.6666666666666666,0.0,0.761904761904762,8,1,4,9,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-sigkdd,wikidata_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,3,1,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-sigkdd,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,confof-ekaw,wikidata_syn,ALL,0.7857142857142857,0.55,0.1,0.6470588235294117,11,3,9,14,549089128,00:00:00,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,confof-ekaw,wikidata_syn,CLASSES,0.8461538461538461,0.55,0.1,0.6666666666666667,11,2,9,13,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,confof-ekaw,wikidata_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,0,1,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,confof-ekaw,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,confof-edas,wikidata_syn,ALL,0.65,0.6842105263157895,0.25,0.6666666666666667,13,7,6,20,740510960,00:00:00,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,confof-edas,wikidata_syn,CLASSES,0.9090909090909091,0.7142857142857143,0.2,0.8,10,1,4,11,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,confof-edas,wikidata_syn,PROPERTIES,0.3333333333333333,0.6,0.3333333333333333,0.42857142857142855,3,6,2,9,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,confof-edas,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-ekaw,wikidata_syn,ALL,0.6,0.5454545454545454,0.16666666666666666,0.5714285714285713,6,4,5,10,960618282,00:00:00,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-ekaw,wikidata_syn,CLASSES,0.75,0.75,0.3333333333333333,0.75,6,2,2,8,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-ekaw,wikidata_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,3,2,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-ekaw,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,edas-ekaw,wikidata_syn,ALL,0.5,0.4782608695652174,0.15384615384615385,0.4888888888888889,11,11,12,22,1989362688,00:00:01,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,edas-ekaw,wikidata_syn,CLASSES,0.6111111111111112,0.5789473684210527,0.2,0.5945945945945946,11,7,8,18,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,edas-ekaw,wikidata_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,4,4,4,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,edas-ekaw,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-edas,wikidata_syn,ALL,0.7272727272727273,0.6153846153846154,0.0,0.6666666666666667,8,3,5,11,1369385770,00:00:01,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-edas,wikidata_syn,CLASSES,1.0,1.0,0.0,1.0,8,0,0,8,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-edas,wikidata_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,3,5,3,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-edas,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,iasted-sigkdd,wikidata_syn,ALL,0.7333333333333333,0.7333333333333333,0.0,0.7333333333333333,11,4,4,15,1207638926,00:00:01,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,iasted-sigkdd,wikidata_syn,CLASSES,0.9166666666666666,0.7333333333333333,0.0,0.8148148148148148,11,1,4,12,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,iasted-sigkdd,wikidata_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,3,0,3,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,iasted-sigkdd,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-iasted,wikidata_syn,ALL,0.5,0.2857142857142857,0.0,0.36363636363636365,4,4,10,8,3463000808,00:00:03,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-iasted,wikidata_syn,CLASSES,0.6666666666666666,0.3076923076923077,0.0,0.42105263157894735,4,2,9,6,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-iasted,wikidata_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,2,1,2,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-iasted,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-ekaw,wikidata_syn,ALL,0.5,0.4,0.0625,0.4444444444444445,10,10,15,20,1756409033,00:00:01,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-ekaw,wikidata_syn,CLASSES,0.6,0.391304347826087,0.06666666666666667,0.47368421052631576,9,6,14,15,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-ekaw,wikidata_syn,PROPERTIES,0.2,0.5,0.0,0.28571428571428575,1,4,1,5,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-ekaw,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-edas,wikidata_syn,ALL,0.47368421052631576,0.5294117647058824,0.0,0.5,9,10,8,19,2696461704,00:00:02,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-edas,wikidata_syn,CLASSES,0.6363636363636364,0.5,0.0,0.56,7,4,7,11,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-edas,wikidata_syn,PROPERTIES,0.25,0.6666666666666666,0.0,0.36363636363636365,2,6,1,8,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,conference-edas,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,ekaw-sigkdd,wikidata_syn,ALL,0.7272727272727273,0.7272727272727273,0.25,0.7272727272727273,8,3,3,11,707519840,00:00:00,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,ekaw-sigkdd,wikidata_syn,CLASSES,0.8,0.7272727272727273,0.25,0.761904761904762,8,2,3,10,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,ekaw-sigkdd,wikidata_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,0,1,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,ekaw-sigkdd,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-iasted,wikidata_syn,ALL,0.8,1.0,0.0,0.888888888888889,4,1,0,5,1381574257,00:00:01,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-iasted,wikidata_syn,CLASSES,0.8,1.0,0.0,0.888888888888889,4,1,0,5,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-iasted,wikidata_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,cmt-iasted,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,edas-sigkdd,wikidata_syn,ALL,0.875,0.4666666666666667,0.0,0.608695652173913,7,1,8,8,944949183,00:00:00,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,edas-sigkdd,wikidata_syn,CLASSES,1.0,0.6363636363636364,0.0,0.7777777777777778,7,0,4,7,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,edas-sigkdd,wikidata_syn,PROPERTIES,0.0,0.0,0.0,0.0,0,1,4,1,-,-,0.5,SYNONYMY,WikidataKnowledgeSource
+conference,edas-sigkdd,wikidata_syn,INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,WikidataKnowledgeSource

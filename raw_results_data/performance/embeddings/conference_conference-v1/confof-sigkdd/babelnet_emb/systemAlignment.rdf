@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+      <alignapilocalns:matcherThreshold xmlns:alignapilocalns="http://a.com/">0.5</alignapilocalns:matcherThreshold>
+      <alignapilocalns:matcherStrategy xmlns:alignapilocalns="http://a.com/">SYNONYMY</alignapilocalns:matcherStrategy>
+      <alignapilocalns:backgroundDataset xmlns:alignapilocalns="http://a.com/">babelnet_emb</alignapilocalns:backgroundDataset>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Paper"/>
+      <entity2 rdf:resource="http://sigkdd#Paper"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#has_short_title"/>
+      <entity2 rdf:resource="http://sigkdd#City_of_conference"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6601072786453827</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Regular"/>
+      <entity2 rdf:resource="http://sigkdd#Committee"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8901591552320841</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#follows"/>
+      <entity2 rdf:resource="http://sigkdd#submit"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9295272413747643</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Short_paper"/>
+      <entity2 rdf:resource="http://sigkdd#Program_Committee_member"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5969052852369344</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Chair_PC"/>
+      <entity2 rdf:resource="http://sigkdd#Program_Chair"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6458981144214183</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Scholar"/>
+      <entity2 rdf:resource="http://sigkdd#Main_office"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6729512061234927</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Banquet"/>
+      <entity2 rdf:resource="http://sigkdd#Document"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9205499276945582</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Administrative_event"/>
+      <entity2 rdf:resource="http://sigkdd#Organizing_Committee_member"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5860300133332269</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Topic"/>
+      <entity2 rdf:resource="http://sigkdd#Abstract"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8395809116727497</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Author"/>
+      <entity2 rdf:resource="http://sigkdd#Author"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Conference"/>
+      <entity2 rdf:resource="http://sigkdd#Conference"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Social_event"/>
+      <entity2 rdf:resource="http://sigkdd#Award"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7876380408769311</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Contribution"/>
+      <entity2 rdf:resource="http://sigkdd#Hotel"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8519598783730147</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Reviewing_results_event"/>
+      <entity2 rdf:resource="http://sigkdd#Registration_SIGKDD_Member"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6769372749714749</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#remark"/>
+      <entity2 rdf:resource="http://sigkdd#E-mail"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6474502214858485</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Camera_Ready_event"/>
+      <entity2 rdf:resource="http://sigkdd#Registration_SIGMOD_Member"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5724981918677874</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Working_event"/>
+      <entity2 rdf:resource="http://sigkdd#Program_Committee"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7900270358745318</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Participant"/>
+      <entity2 rdf:resource="http://sigkdd#Conference_hall"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7529831571201412</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Reviewing_event"/>
+      <entity2 rdf:resource="http://sigkdd#Organizing_Committee"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.941938760168765</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#hasCountry"/>
+      <entity2 rdf:resource="http://sigkdd#notification_until"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7241650970510352</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Organization"/>
+      <entity2 rdf:resource="http://sigkdd#Listener"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8574336853062492</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Trip"/>
+      <entity2 rdf:resource="http://sigkdd#Place"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7519946888650936</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Submission_event"/>
+      <entity2 rdf:resource="http://sigkdd#Registration_Student"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5850813730224622</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#writtenBy"/>
+      <entity2 rdf:resource="http://sigkdd#pay"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8836210310767103</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#abstract"/>
+      <entity2 rdf:resource="http://sigkdd#Name"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7508176027719321</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Science_Worker"/>
+      <entity2 rdf:resource="http://sigkdd#Bronze_Supporter"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5104721920480111</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#hasTopic"/>
+      <entity2 rdf:resource="http://sigkdd#awarded_by"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8554983736010977</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#location"/>
+      <entity2 rdf:resource="http://sigkdd#Price"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7237526638224482</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Person"/>
+      <entity2 rdf:resource="http://sigkdd#Person"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#hasFirstName"/>
+      <entity2 rdf:resource="http://sigkdd#Name_of_conference"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9362099397029933</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#University"/>
+      <entity2 rdf:resource="http://sigkdd#Speaker"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.8168445707938499</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Reception"/>
+      <entity2 rdf:resource="http://sigkdd#Fee"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7109909433035115</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#hasCity"/>
+      <entity2 rdf:resource="http://sigkdd#designed_by"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.765325667789307</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#hasAdministrativeEvent"/>
+      <entity2 rdf:resource="http://sigkdd#can_stay_in"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7473087961641524</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#dealsWith"/>
+      <entity2 rdf:resource="http://sigkdd#submit_until"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9212944877466988</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Assistant"/>
+      <entity2 rdf:resource="http://sigkdd#Registration_fee"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9644028688584529</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Tutorial"/>
+      <entity2 rdf:resource="http://sigkdd#Exhibitor"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9589694982687613</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

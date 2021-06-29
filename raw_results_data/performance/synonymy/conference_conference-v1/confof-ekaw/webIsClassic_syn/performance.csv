@@ -1,0 +1,5 @@
+Type,Precision (P),Recall (R),Residual Recall (R+),F1,"# of TP","# of FP","# of FN","# of Correspondences",Time,Time (HH:MM:SS)
+ALL,0.7142857142857143,0.5,0.0,0.588235294117647,10,4,10,14,138165456,00:00:00,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+CLASSES,0.8333333333333334,0.5,0.0,0.625,10,2,10,12,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5
+INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,AlodClassic_MinConf_0.5

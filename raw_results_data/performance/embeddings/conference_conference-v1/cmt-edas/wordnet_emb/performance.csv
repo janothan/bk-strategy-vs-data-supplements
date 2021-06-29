@@ -1,0 +1,5 @@
+Type,Precision (P),Recall (R),Residual Recall (R+),F1,"# of TP","# of FP","# of FN","# of Correspondences",Time,Time (HH:MM:SS)
+ALL,0.6666666666666666,0.6153846153846154,0.0,0.64,8,4,5,12,446075592,00:00:00,0.5,SYNONYMY,wordnet_emb
+CLASSES,0.8888888888888888,1.0,0.0,0.9411764705882353,8,1,0,9,-,-,0.5,SYNONYMY,wordnet_emb
+PROPERTIES,0.0,0.0,0.0,0.0,0,3,5,3,-,-,0.5,SYNONYMY,wordnet_emb
+INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,wordnet_emb

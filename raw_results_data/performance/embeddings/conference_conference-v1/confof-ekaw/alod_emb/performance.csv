@@ -1,0 +1,5 @@
+Type,Precision (P),Recall (R),Residual Recall (R+),F1,"# of TP","# of FP","# of FN","# of Correspondences",Time,Time (HH:MM:SS)
+ALL,0.4230769230769231,0.55,0.1,0.47826086956521735,11,15,9,26,80167251,00:00:00,0.5,SYNONYMY,alod_emb
+CLASSES,0.5,0.55,0.1,0.5238095238095238,11,11,9,22,-,-,0.5,SYNONYMY,alod_emb
+PROPERTIES,0.0,0.0,0.0,0.0,0,4,0,4,-,-,0.5,SYNONYMY,alod_emb
+INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,alod_emb

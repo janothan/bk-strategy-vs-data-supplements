@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+      <alignapilocalns:matcherThreshold xmlns:alignapilocalns="http://a.com/">0.5</alignapilocalns:matcherThreshold>
+      <alignapilocalns:matcherStrategy xmlns:alignapilocalns="http://a.com/">SYNONYMY</alignapilocalns:matcherStrategy>
+      <alignapilocalns:backgroundDataset xmlns:alignapilocalns="http://a.com/">dbpedia_emb</alignapilocalns:backgroundDataset>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Topic"/>
+      <entity2 rdf:resource="http://edas#Topic"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Tutorial"/>
+      <entity2 rdf:resource="http://edas#Country"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5092647891019498</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_a_date_of_issue"/>
+      <entity2 rdf:resource="http://edas#hasPostalCode"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6138659826867561</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performTokenBasedSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#was_a_member_of"/>
+      <entity2 rdf:resource="http://edas#isMemberOf"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">mapToMany()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Written_contribution"/>
+      <entity2 rdf:resource="http://edas#TalkEvent"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7024220722857879</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Conference_participant"/>
+      <entity2 rdf:resource="http://edas#MealEvent"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5263041888792375</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Conference_part"/>
+      <entity2 rdf:resource="http://edas#ConferenceSession"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7017628232828712</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#is_an_ending_date"/>
+      <entity2 rdf:resource="http://edas#hasStartDateTime"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6679759566410088</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#gives_presentations"/>
+      <entity2 rdf:resource="http://edas#hasCall"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6124024313077356</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_a_location"/>
+      <entity2 rdf:resource="http://edas#hasStreet"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5179740738557022</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performTokenBasedSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Track"/>
+      <entity2 rdf:resource="http://edas#Reception"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7837648156909293</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_an_expertise"/>
+      <entity2 rdf:resource="http://edas#registrationDueOn"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6772578367831902</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Call_for_participation"/>
+      <entity2 rdf:resource="http://edas#CallForManuscripts"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7958777405703603</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_an_email"/>
+      <entity2 rdf:resource="http://edas#hasEmail"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#reviews"/>
+      <entity2 rdf:resource="http://edas#hasAttendee"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5370473983204174</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_gender"/>
+      <entity2 rdf:resource="http://edas#startDate"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7485853690145438</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Review"/>
+      <entity2 rdf:resource="http://edas#Review"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Conference_proceedings"/>
+      <entity2 rdf:resource="http://edas#Excursion"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7129804933625631</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Person"/>
+      <entity2 rdf:resource="http://edas#Person"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_the_last_name"/>
+      <entity2 rdf:resource="http://edas#hasLastName"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Early_paid_applicant"/>
+      <entity2 rdf:resource="http://edas#PowerlineTransmissionTopic"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.670387207938675</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_tutorials"/>
+      <entity2 rdf:resource="http://edas#hasMenu"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5167963676396834</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Abstract"/>
+      <entity2 rdf:resource="http://edas#Place"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7669842935642722</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Accepted_contribution"/>
+      <entity2 rdf:resource="http://edas#AcceptedPaper"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6385664340938303</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Regular_contribution"/>
+      <entity2 rdf:resource="http://edas#AntennasTopic"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6909977733376701</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Conference"/>
+      <entity2 rdf:resource="http://edas#Conference"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Review_expertise"/>
+      <entity2 rdf:resource="http://edas#ReviewForm"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6379313725151653</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_contributions"/>
+      <entity2 rdf:resource="http://edas#hasCountry"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5814940102561159</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Presentation"/>
+      <entity2 rdf:resource="http://edas#Presenter"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6807607819922676</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Call_for_paper"/>
+      <entity2 rdf:resource="http://edas#CallForPapers"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0000000000000002</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performTokenBasedSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_the_first_name"/>
+      <entity2 rdf:resource="http://edas#hasFirstName"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_an_ISBN"/>
+      <entity2 rdf:resource="http://edas#paperDueOn"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7241235243343708</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Review_preference"/>
+      <entity2 rdf:resource="http://edas#ReviewRating"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.573307759311838</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Poster"/>
+      <entity2 rdf:resource="http://edas#Document"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5390518332122046</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Active_conference_participant"/>
+      <entity2 rdf:resource="http://edas#TestOnlyTopic"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7251465564785379</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Reviewed_contribution"/>
+      <entity2 rdf:resource="http://edas#SlideSet"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7015743128250839</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Conference_contribution"/>
+      <entity2 rdf:resource="http://edas#AcceptRating"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7051566439759991</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_a_degree"/>
+      <entity2 rdf:resource="http://edas#hasPhone"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6046496358521524</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performTokenBasedSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_a_name"/>
+      <entity2 rdf:resource="http://edas#hasName"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Organization"/>
+      <entity2 rdf:resource="http://edas#Organization"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Track-workshop_chair"/>
+      <entity2 rdf:resource="http://edas#PersonalReviewHistory"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5430289480568806</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performTokenBasedSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_tracks"/>
+      <entity2 rdf:resource="http://edas#relatesTo"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6643700252294524</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Conference_announcement"/>
+      <entity2 rdf:resource="http://edas#TPCMember"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.662569119115705</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_a_volume"/>
+      <entity2 rdf:resource="http://edas#hasCity"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5370728483772259</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performTokenBasedSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Information_for_participants"/>
+      <entity2 rdf:resource="http://edas#PersonalHistory"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5065115389127519</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performTokenBasedSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Organizer"/>
+      <entity2 rdf:resource="http://edas#Call"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6479405673237606</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Chair"/>
+      <entity2 rdf:resource="http://edas#NGO"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5151701024474484</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Rejected_contribution"/>
+      <entity2 rdf:resource="http://edas#RejectedPaper"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6385664340938303</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#issues"/>
+      <entity2 rdf:resource="http://edas#initiates"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.719253727793202</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">performFullStringSynonymyMatching()</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Workshop"/>
+      <entity2 rdf:resource="http://edas#Workshop"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Paid_applicant"/>
+      <entity2 rdf:resource="http://edas#ComputerNetworksTopic"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.611162514498161</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Reviewer"/>
+      <entity2 rdf:resource="http://edas#Reviewer"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_workshops"/>
+      <entity2 rdf:resource="http://edas#hasRating"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6127539101523041</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_authors"/>
+      <entity2 rdf:resource="http://edas#hasTopic"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.555152786597096</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Conference_contributor"/>
+      <entity2 rdf:resource="http://edas#ConferenceEvent"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7018070533046512</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_members"/>
+      <entity2 rdf:resource="http://edas#forEvent"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.831143077499821</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_an_abstract"/>
+      <entity2 rdf:resource="http://edas#hasRelatedDocument"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5870228513941069</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Conference_document"/>
+      <entity2 rdf:resource="http://edas#ConferenceChair"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5224365664255061</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Conference_volume"/>
+      <entity2 rdf:resource="http://edas#AcademicEvent"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6003235442587849</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Submitted_contribution"/>
+      <entity2 rdf:resource="http://edas#BreakEvent"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7197975118023197</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_parts"/>
+      <entity2 rdf:resource="http://edas#hasLocation"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6762214526259253</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Paper"/>
+      <entity2 rdf:resource="http://edas#Paper"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">simple match</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#has_important_dates"/>
+      <entity2 rdf:resource="http://edas#isReviewedBy"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5789257814987687</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#is_given_by"/>
+      <entity2 rdf:resource="http://edas#hasReviewHistory"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6521050020100775</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Contribution_1th-author"/>
+      <entity2 rdf:resource="http://edas#RatedPapers"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6385664340938303</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Conference_fees"/>
+      <entity2 rdf:resource="http://edas#ClosingTalk"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5955224570852845</measure>
+      <alignapilocalns:addedInStep xmlns:alignapilocalns="http://custom#">longsestStringMatch</alignapilocalns:addedInStep>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

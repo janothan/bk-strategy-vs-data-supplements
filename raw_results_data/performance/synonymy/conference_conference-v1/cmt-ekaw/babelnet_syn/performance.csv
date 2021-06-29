@@ -1,0 +1,5 @@
+Type,Precision (P),Recall (R),Residual Recall (R+),F1,"# of TP","# of FP","# of FN","# of Correspondences",Time,Time (HH:MM:SS)
+ALL,0.625,0.45454545454545453,0.0,0.5263157894736842,5,3,6,8,3880099794,00:00:03,0.5,SYNONYMY,BabelNet Symbolic
+CLASSES,1.0,0.625,0.0,0.7692307692307693,5,0,3,5,-,-,0.5,SYNONYMY,BabelNet Symbolic
+PROPERTIES,0.0,0.0,0.0,0.0,0,3,3,3,-,-,0.5,SYNONYMY,BabelNet Symbolic
+INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,BabelNet Symbolic

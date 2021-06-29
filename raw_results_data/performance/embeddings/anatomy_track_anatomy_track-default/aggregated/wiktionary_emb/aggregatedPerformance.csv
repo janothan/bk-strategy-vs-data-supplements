@@ -1,0 +1,5 @@
+Type,Macro Precision (P),Macro Recall (R),Residual Macro Recall (R+),Macro F1,Micro Precision (P),Micro Recall (R),Residual Micro Recall (R+),Micro F1,"# of TP","# of Residual TP","# of FP","# of FN","# of Correspondences",Total Runtime,Total Runtime(HH:MM:SS),http://a.com/matcherThreshold,http://a.com/matcherStrategy,http://a.com/backgroundDataset
+ALL,0.6440168370414913,0.7064643799472295,0.03837471783295711,0.6737967914438503,0.6440168370414913,0.7064643799472295,0.03837471783295711,0.6737967914438503,1071,17,592,445,1663,30302418215,00:00:30,0.5,SYNONYMY,wiktionary_emb
+CLASSES,0.6447922937989163,0.7064643799472295,0.03837471783295711,0.6742209631728046,0.6447922937989163,0.7064643799472295,0.03837471783295711,0.6742209631728046,1071,17,590,445,1661,-,-,0.5,SYNONYMY,wiktionary_emb
+PROPERTIES,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,2,0,2,-,-,0.5,SYNONYMY,wiktionary_emb
+INSTANCES,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0,-,-,0.5,SYNONYMY,wiktionary_emb

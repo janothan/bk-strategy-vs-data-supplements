@@ -1,0 +1,5 @@
+Type,Macro Precision (P),Macro Recall (R),Residual Macro Recall (R+),Macro F1,Micro Precision (P),Micro Recall (R),Residual Micro Recall (R+),Micro F1,"# of TP","# of Residual TP","# of FP","# of FN","# of Correspondences",Total Runtime,Total Runtime(HH:MM:SS),http://a.com/matcherThreshold,http://a.com/matcherStrategy,http://a.com/backgroundDataset
+ALL,0.7274774774774775,0.4810126582278481,0.29456576942610463,0.5791125056028688,0.7274774774774775,0.4810126582278481,0.29456576942610463,0.5791125056028688,1292,580,484,1394,1912,0,00:00:00,-,-,-
+CLASSES,0.7274774774774775,0.4810126582278481,0.29456576942610463,0.5791125056028688,0.7274774774774775,0.4810126582278481,0.29456576942610463,0.5791125056028688,1292,580,484,1394,1912,-,-,-,-,-
+PROPERTIES,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0,-,-,-,-,-
+INSTANCES,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0,-,-,-,-,-

@@ -1,0 +1,5 @@
+Type,Precision (P),Recall (R),Residual Recall (R+),F1,"# of TP","# of FP","# of FN","# of Correspondences",Time,Time (HH:MM:SS)
+ALL,0.5,0.7,0.25,0.5833333333333334,7,7,3,14,4037560347,00:00:04,0.5,SYNONYMY_OR_HYPERNYMY,WikidataKnowledgeSource
+CLASSES,0.5833333333333334,0.7,0.25,0.6363636363636365,7,5,3,12,-,-,0.5,SYNONYMY_OR_HYPERNYMY,WikidataKnowledgeSource
+PROPERTIES,0.0,0.0,0.0,0.0,0,2,0,2,-,-,0.5,SYNONYMY_OR_HYPERNYMY,WikidataKnowledgeSource
+INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY_OR_HYPERNYMY,WikidataKnowledgeSource

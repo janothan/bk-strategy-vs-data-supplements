@@ -1,0 +1,5 @@
+Type,Precision (P),Recall (R),Residual Recall (R+),F1,"# of TP","# of FP","# of FN","# of Correspondences",Time,Time (HH:MM:SS)
+ALL,0.21951219512195122,0.75,0.5,0.339622641509434,9,32,3,41,2596636517,00:00:02,0.5,SYNONYMY,wikidata_emb
+CLASSES,0.32,0.8,0.5,0.45714285714285713,8,17,2,25,-,-,0.5,SYNONYMY,wikidata_emb
+PROPERTIES,0.0625,0.5,0.5,0.1111111111111111,1,15,1,16,-,-,0.5,SYNONYMY,wikidata_emb
+INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,wikidata_emb

@@ -1,0 +1,5 @@
+Type,Precision (P),Recall (R),Residual Recall (R+),F1,"# of TP","# of FP","# of FN","# of Correspondences",Time,Time (HH:MM:SS)
+ALL,0.16216216216216217,0.6,0.0,0.25531914893617025,6,31,4,37,524231803,00:00:00,0.5,SYNONYMY,wiktionary_emb
+CLASSES,0.23076923076923078,0.6,0.0,0.33333333333333337,6,20,4,26,-,-,0.5,SYNONYMY,wiktionary_emb
+PROPERTIES,0.0,0.0,0.0,0.0,0,11,0,11,-,-,0.5,SYNONYMY,wiktionary_emb
+INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-,-,0.5,SYNONYMY,wiktionary_emb
